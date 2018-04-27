@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1567005083",
+    "firebase_url": "https://yoga-for-life-f3826.firebaseio.com",
+    "project_id": "yoga-for-life-f3826",
+    "storage_bucket": "yoga-for-life-f3826.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1567005083:android:f463e315cb138504",
+        "android_client_info": {
+          "package_name": "com.vsa.yogaforlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1567005083-sqe6s6v3hq2o33dc1ado4tlf2ptve069.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vsa.yogaforlife",
+            "certificate_hash": "58eb21c9b6583c63f5d7c0b390e2a720cae9c62f"
+          }
+        },
+        {
+          "client_id": "1567005083-6p4kb16clca3tv2cgi3cef60rkq3c270.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrsVd0uAMbsf0r6ISeWemtmY0VcFBGeKs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1567005083-6p4kb16clca3tv2cgi3cef60rkq3c270.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
