@@ -2,11 +2,15 @@ package com.vsa.yogaforlife;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v4.view.ViewPager;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -18,7 +22,7 @@ import android.support.v7.widget.ShareActionProvider;
 import android.support.design.widget.TabLayout;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class Home extends AppCompatActivity {
+public class Home extends AppCompatActivity  implements NavigationView.OnNavigationItemSelectedListener{
 
 
     Button button;
@@ -37,6 +41,21 @@ public class Home extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        // adding the drawer to the toolbar
+
+        DrawerLayout layout = (DrawerLayout)findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this,
+                layout,
+                toolbar,
+                R.string.nav_open_drawer,R.string.nav_close_drawer);
+        layout.addDrawerListener(toggle);
+        toggle.syncState();
+
+        // adding navigation view listener
+
+        NavigationView navigationView = (NavigationView)findViewById(R.id.nav);
+        navigationView.setNavigationItemSelectedListener(this);
 
         // code for pager to use Fragemt Manager
 
@@ -61,6 +80,51 @@ public class Home extends AppCompatActivity {
                 }
             }
         };
+    }
+
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        Intent intent = null;
+        int id = item.getItemId();
+        boolean isFragment = false;
+        switch (id){
+            case R.id.fav:
+                isFragment = true;
+                break;
+            case R.id.recommended:
+                isFragment = true;
+                break;
+            case R.id.diet:
+                isFragment = true;
+                break;
+            case R.id.workout:
+                isFragment = true;
+                break;
+            case R.id.help:
+                intent = new Intent(this, Help.class);
+                break;
+            case R.id.feedback:
+                intent = new Intent(this, Feedback.class);
+        }
+        if (intent != null){
+            startActivity(intent);
+        }else {
+            intent = new Intent(this, NavigationFragmentItemSelected.class);
+            intent.putExtra(NavigationFragmentItemSelected.ID, id);
+            startActivity(intent);
+        }
+        DrawerLayout drawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
+        drawerLayout.closeDrawer(GravityCompat.START);
+        return true;
+    }
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
     }
 
     @Override

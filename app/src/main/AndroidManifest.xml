@@ -37,7 +37,8 @@
             android:name=".DescriptionMedi"
             android:parentActivityName=".MediList" />
         <activity android:name=".Help" />
-        <activity android:name=".Feedback"></activity>
+        <activity android:name=".Feedback" />
+        <activity android:name=".NavigationFragmentItemSelected"></activity>
     </application>
 
 </manifest>

@@ -17,5 +17,7 @@
     <string name="support">Support</string>
     <string name="help">Find Help</string>
     <string name="feed">Give us feedback</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
 
 </resources>
