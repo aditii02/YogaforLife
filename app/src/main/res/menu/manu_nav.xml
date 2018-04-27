@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/fav"
+        android:icon="@android:drawable/btn_star"
+        android:title="@string/fav"
+        android:checked="true"/>
+
+    <item
+        android:id="@+id/recommended"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/recommended"
+        android:checked="false"/>
+    <item
+        android:id="@+id/diet"
+        android:icon="@android:drawable/btn_star_big_off"
+        android:title="@string/diet"/>
+    <item
+        android:id="@+id/workout"
+        android:title="@string/workout"
+        android:icon="@android:drawable/btn_star_big_off"/>
+
+
+</group>
+    <item android:title="@string/support">
+        <menu>
+
+            <item
+                android:id="@+id/help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/help"/>
+            <item
+                android:id="@+id/feedback"
+                android:icon="@android:drawable/sym_action_email"
+                android:title="@string/feed"/>
+        </menu>
+    </item>
+
+</menu>
