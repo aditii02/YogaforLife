@@ -19,5 +19,8 @@
     <string name="feed">Give us feedback</string>
     <string name="nav_open_drawer">Open navigation drawer</string>
     <string name="nav_close_drawer">Close navigation drawer</string>
+    <string name="imageViewText">Image</string>
+    <string name="wallpaper">Thoughts of the day!</string>
+    <string name="app_string_app_name">app @string/app_name</string>
 
 </resources>

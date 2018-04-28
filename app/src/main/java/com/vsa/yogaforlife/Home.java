@@ -1,6 +1,7 @@
 package com.vsa.yogaforlife;
 
 import android.content.Intent;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -20,10 +21,12 @@ import android.widget.Button;
 import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.ShareActionProvider;
 import android.support.design.widget.TabLayout;
+import android.widget.Toast;
+
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Home extends AppCompatActivity  implements NavigationView.OnNavigationItemSelectedListener{
-
+    boolean doubleBackToExitPressedOnce = false;
 
     Button button;
     FirebaseAuth mAuth;
@@ -120,11 +123,26 @@ public class Home extends AppCompatActivity  implements NavigationView.OnNavigat
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
+        if (doubleBackToExitPressedOnce){
+            //super.onBackPressed();
+            finishAffinity();
+            System.exit(0);
+
         }
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            doubleBackToExitPressedOnce = false;
+            drawer.closeDrawer(GravityCompat.START);
+            doubleBackToExitPressedOnce = false;
+        }
+        else{
+            this.doubleBackToExitPressedOnce = true;
+            Toast.makeText(this,"Please click Back again to exit", Toast.LENGTH_SHORT).show();
+            new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                doubleBackToExitPressedOnce= false;
+            }
+        }, 2000);}
     }
 
     @Override

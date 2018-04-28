@@ -54,7 +54,13 @@ import java.util.List;
 
     @Override
     public int getItemCount() {
-        return captions.length;
+        int len = 0;
+        try {
+            len = captions.length;
+        }catch (Exception e){
+            len = 0;
+        }
+        return len;
     }
 
     // set listener

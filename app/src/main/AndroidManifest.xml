@@ -10,11 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Home" />
         <activity
@@ -32,13 +28,20 @@
         <activity
             android:name=".Description"
             android:parentActivityName=".YogaList" />
-        <activity android:name=".Splash" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".DescriptionMedi"
             android:parentActivityName=".MediList" />
         <activity android:name=".Help" />
         <activity android:name=".Feedback" />
-        <activity android:name=".NavigationFragmentItemSelected"></activity>
+        <activity android:name=".NavigationFragmentItemSelected"
+            android:parentActivityName=".Home"></activity>
     </application>
 
 </manifest>

@@ -74,7 +74,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         " without dwelling on anything in particular." +
                         " It is a type of Effortless Presence meditation","Zazen is a very sober meditation style." +
                         "There is a lot of emphasis in keeping the right posture, as an aid for concentration.","Anyone",
-                0,R.drawable.zen);
+                1,R.drawable.zen);
         insertDataMedi(db,"Vipassana Meditation",1,0,0,0,0,"Vipassana is a Pali word thaTypes of meditation - Vipassanat means insight or clear seeing." +
                         " It is a traditional Buddhist practice, dating back to 6th century BC." +
                         " It has its roots in the Chinese Zen Buddhism tradition," +

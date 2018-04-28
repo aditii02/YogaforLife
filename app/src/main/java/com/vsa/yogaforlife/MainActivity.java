@@ -1,11 +1,13 @@
 package com.vsa.yogaforlife;
 
 import android.content.Intent;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
@@ -29,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
     private GoogleSignInClient mGoogleSignInClient;
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
+    private  int imageArray[] = { R.drawable.wa, R.drawable.wb, R.drawable.wc, R.drawable.wd,
+            R.drawable.we, R.drawable.wf, R.drawable.wh, R.drawable.wi, R.drawable.wj};
+
 
     @Override
     protected void onStart() {
@@ -62,6 +67,22 @@ public class MainActivity extends AppCompatActivity {
                 .build();
         // Build a GoogleSignInClient with the options specified by gso.
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
+        final ImageView imageView = (ImageView)findViewById(R.id.wall);
+
+        final Handler handler = new Handler();
+        Runnable runnable = new Runnable() {
+            int i = 0;
+
+            public void run() {
+                imageView.setImageResource(imageArray[i]);
+                i++;
+                if (i > imageArray.length - 1) {
+                    i = 0;
+                }
+                handler.postDelayed(this, 6000);
+            }
+        };
+        handler.postDelayed(runnable, 2000);
     }
 
     // Configure Google Sign In
