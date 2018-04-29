@@ -38,8 +38,8 @@ public class MyDatabase extends SQLiteOpenHelper {
                 + "DESCRIPTION TEXT, "
                 + "CAUTION TEXT, "
                 + "FAV NUMERIC, "
-
-                + "IMAGE_RESOURCE_ID INTEGER);");
+                + "IMAGE_RESOURCE_ID INTEGER,"
+                + "CODE TEXT);");
 
         db.execSQL("CREATE TABLE MEDI("
                 + "_id INTEGER PRIMARY KEY AUTOINCREMENT, "
@@ -54,7 +54,8 @@ public class MyDatabase extends SQLiteOpenHelper {
                 + "CAUTION TEXT,"
                 + "INTEND TEXT,"
                 + "FAV NUMERIC, "
-                + "IMAGE_RESOURCE_ID INTEGER);");
+                + "IMAGE_RESOURCE_ID INTEGER,"
+                + "CODE TEXT);");
 
         insertDataMedi(db,"Zen Meditation (Zazen)",1,0,0,0,0,"Zazen means seated Zen, or seated meditation, in Japanese." +
                 " It has its roots in the Chinese Zen Buddhism tradition," +
@@ -74,7 +75,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         " without dwelling on anything in particular." +
                         " It is a type of Effortless Presence meditation","Zazen is a very sober meditation style." +
                         "There is a lot of emphasis in keeping the right posture, as an aid for concentration.","Anyone",
-                1,R.drawable.zen);
+                1,R.drawable.zen,"5GSMRUl9UPo");
         insertDataMedi(db,"Vipassana Meditation",1,0,0,0,0,"Vipassana is a Pali word thaTypes of meditation - Vipassanat means insight or clear seeing." +
                         " It is a traditional Buddhist practice, dating back to 6th century BC." +
                         " It has its roots in the Chinese Zen Buddhism tradition," +
@@ -117,7 +118,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         " impermanence (annica), insatisfactoriness (dukkha) and emptiness of self (annata)" +
                         ". As a result, equanimity, peace and inner freedom is developed in relation to these inputs.",
                 "If you are completely new to meditation, Vipassana or Mindfulness are probably good ways for you to start",
-                        "Anyone", 0,R.drawable.vipamedi);
+                        "Anyone", 0,R.drawable.vipamedi,"JehQATmna7k");
 
 
         insertDataYoga(db,"Viparita Virabhadrasana",
@@ -135,7 +136,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 10- Stay in this position for 30 seconds.\n" +
                         "Step 11- Return to the original position by putting your right hand down, straightening your left leg and standing erect." +
                         " Repeat the same with the other side.\n","Benefits: This posture helps to open the ribs and makes the body more flexible. It also gives a boost to self-confidence.",
-                "YOGA FOR KIDS (Reverse Warrior Pose)",0,R.drawable.viparita);
+                "YOGA FOR KIDS (Reverse Warrior Pose)",0,R.drawable.viparita,"rRbLJZ6");
 
 
         insertDataYoga(db,"Navasana",
@@ -148,7 +149,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 5- Breathe normally and return to the original state by first putting your feet down slowly and then, releasing your hands.\n" +
                         "Step 6- Finally, sit in a relaxed position.\n","This is really a fun yoga for your kids. Your kids will surely love this one.\n" +
                         "Benefits: It improves the digestion system, strengthens your back bone and helps you to learn teamwork. It is a great stress-buster pose.\n",
-                "YOGA FOR KIDS (Partner Boat Pose/Double Boat Pose)",0,R.drawable.nava);
+                "YOGA FOR KIDS (Partner Boat Pose/Double Boat Pose)",0,R.drawable.nava,"8KsyQvwi85Q");
 //
 
         insertDataYoga(db,"Urdhva Mukha Svanasana",
@@ -162,7 +163,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 6- Keep your legs straightened, and knees should be straight and locked.\n" +
                         "Step 7- Stay in this posture for 25-30 seconds.\n","This is really a fun yoga for your kids. Your kids will surely love this one.\n" +
                         "Benefits: It makes the spinal cord strong. This posture not only opens your chest but stretches it too. It decreases the stress level and helps in asthma.",
-                "YOGA FOR KIDS(Upward Facing Dog Pose)",0,R.drawable.urdhva);
+                "YOGA FOR KIDS(Upward Facing Dog Pose)",0,R.drawable.urdhva,"cQtfujS");
 
         insertDataYoga(db,"Dekasana",
                 1,0,0,0,0,
@@ -173,7 +174,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 4- Raise your arms upwards on either side to maintain your balance. Your body pose should be like a flying aeroplane.\n" +
                         "Step 5- Stay in this posture for a few seconds.\n" +
                         "Step 6- Put your arms down and stand straight.\n","Benefits: This yoga posture helps to increase the concentration level. It teaches kids to maintain balance and helps to strengthen the legs, the chest and hands.",
-                "YOGA FOR KIDS (Airplane Pose)",0,R.drawable.dekas);
+                "YOGA FOR KIDS (Airplane Pose)",0,R.drawable.dekas,"fP4-KNIZEb0");
 
         insertDataYoga(db,"Balasana",
                 1,0,0,0,0,
@@ -184,7 +185,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 4- Now, slowly lift your legs upwards.\n" +
                         "Step 5- Stay in this position for a few seconds.\n" +
                         "Step 6- Lower down your legs, gently.\n","Benefits: Flower pose helps to build strength, as well as helps to improve balance.",
-                "YOGA FOR KIDS (Flower Pose)",0,R.drawable.balasa);
+                "YOGA FOR KIDS (Flower Pose)",0,R.drawable.balasa,"fP4-KNIZEb0");
 
         insertDataYoga(db,"Adho Mukha Svanasana",
                 1,0,0,0,0,
@@ -196,7 +197,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 5- Pull your soles upwards.\n" +
                         "Step 6- Breathe normally and stay in this pose for a few seconds.\n" +
                         "Step 7- Return to the original posture while exhaling.\n","Benefits: This yoga posture helps to calm your mind and provides energy to your body. It stretches the upper body area, which helps to relieve headaches and back pain.",
-                "YOGA FOR KIDS (Downward Facing Dog Pose)",0,R.drawable.adho);
+                "YOGA FOR KIDS (Downward Facing Dog Pose)",0,R.drawable.adho,"fP4-KNIZEb0");
 
         insertDataYoga(db,"Star Pose",
                 1,0,0,0,0,
@@ -208,7 +209,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 4- Lean towards your left leg.\n" +
                         "Step 5- Stay in this position for 5-10 seconds.\n" +
                         "Step 6- Lower your hands down and stand straight.\n","Benefits: Star pose helps to improve your balance and also helps in stretching the chest and shoulders. This pose also helps to build-up the strength.",
-                "YOGA FOR KIDS",0,R.drawable.adho);
+                "YOGA FOR KIDS",0,R.drawable.adho,"fP4-KNIZEb0");
 
         insertDataYoga(db,"Kite Pose",
                 1,0,0,0,0,
@@ -219,7 +220,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 4- Your body posture should be in a star shape. Breathe normally.\n" +
                         "Step 5- Stay in this posture for a few seconds.\n" +
                         "Step 6- Lower down your hands and stand straight.\n","Benefits: Star pose helps to improve your balance and also helps in stretching the chest and shoulders. This pose also helps to build-up the strength.",
-                "YOGA FOR KIDS (Falling Star)",0,R.drawable.kite);
+                "YOGA FOR KIDS (Falling Star)",0,R.drawable.kite,"fP4-KNIZEb0");
 
         insertDataYoga(db,"Ananda Balasana",
                 1,0,0,0,0,
@@ -230,7 +231,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 3- Hold your feet with your palms.\n" +
                         "Step 4- Stay in this position for 5 to 7 seconds.\n" +
                         "Step 5- Gently, lower down your legs.\n","Benefits: Happy baby pose helps to pacify the mind and body, and decreases the level of stress. It also stretches the spinal cord.",
-                "YOGA FOR KIDS (Happy Baby Pose)",0,R.drawable.anand);
+                "YOGA FOR KIDS (Happy Baby Pose)",0,R.drawable.anand,"fP4-KNIZEb0");
 
 
         // for Seniors
@@ -243,7 +244,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 2- Draw your abdominals in and up and relax your shoulders down and back.\n" +
                         "Step 3- Breathe five to eight breaths while actively engaging your leg muscles.\n",
                 "Helps with balance and grounding through the feet.",
-                "YOGA FOR Seniors",0,R.drawable.mountain);
+                "YOGA FOR Seniors",0,R.drawable.mountain,"fP4-KNIZEb0");
 //
         insertDataYoga(db,"Tree Pose",
                 0,1,1,0,0,
@@ -252,7 +253,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                 "Good for seniors to do for balance and concentration. " +
                         "It’s ok for the leg to be lower on the inner standing leg.\n Start with Baby Tree or use a chair for support.",
                 "Excellent for leg and abdominal strength.",
-                "YOGA FOR Seniors",0,R.drawable.tree);
+                "YOGA FOR Seniors",0,R.drawable.tree,"fP4-KNIZEb0");
 
         insertDataYoga(db,"Bird Dog",
                 0,1,1,0,0,
@@ -262,13 +263,14 @@ public class MyDatabase extends SQLiteOpenHelper {
                 "Step 2- Imagine you have a tea cup on your back and draw your belly button towards your spine.\n"+
                 "Step 3- Stay for a breath, then switch sides.\n",
                 "Good for abdominals and back support. The health of the spine is extremely important as we age. Bird Dog is great for strengthening the transverse abdominals and the back body. Also keeps brain healthy.",
-                "YOGA FOR Seniors",0,R.drawable.bird);
+                "YOGA FOR Seniors",0,R.drawable.bird,"fP4-KNIZEb0");
 
 //
     }
 
     private void insertDataMedi(SQLiteDatabase db, String s, int budd,
-                                int hind, int chin, int chri, int guid,String desc, String steps, String caution, String intended, int fav, int image) {
+                                int hind, int chin, int chri, int guid,String desc,
+                                String steps, String caution, String intended, int fav, int image,String code) {
         ContentValues contentValues = new ContentValues();
 
 
@@ -284,13 +286,14 @@ public class MyDatabase extends SQLiteOpenHelper {
         contentValues.put("INTEND", intended);
         contentValues.put("FAV", fav);
         contentValues.put("IMAGE_RESOURCE_ID", image);
+        contentValues.put("CODE", code);
         db.insert("MEDI", null, contentValues);
     }
 
     // inserting data to database
      private  static void insertDataYoga(SQLiteDatabase db, String name, int kids, int adult, int oldage,
                                      int bodydetox,int skin,int liver,int preg,int heart,int kidney,int eye,int hair,int ortho,int stress,
-                                     int mind,int energy, String steps, String desc, String caution,int fav,int res){
+                                     int mind,int energy, String steps, String desc, String caution,int fav,int res,String code){
          ContentValues values = new ContentValues();
          // putting values
          values.put("NAME", name);
@@ -313,6 +316,7 @@ public class MyDatabase extends SQLiteOpenHelper {
          values.put("CAUTION", caution);
          values.put("FAV", fav);
          values.put("IMAGE_RESOURCE_ID", res);
+         values.put("CODE", code);
          db.insert("YOGA",null,values);
      }
 
