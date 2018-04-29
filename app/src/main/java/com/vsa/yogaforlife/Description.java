@@ -13,12 +13,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.ShareActionProvider;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.youtube.player.YouTubeBaseActivity;
+import com.google.android.youtube.player.YouTubeInitializationResult;
+import com.google.android.youtube.player.YouTubePlayer;
+import com.google.android.youtube.player.YouTubePlayerSupportFragment;
+import com.google.android.youtube.player.YouTubePlayerView;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Description extends AppCompatActivity {
@@ -30,7 +36,6 @@ public class Description extends AppCompatActivity {
     String desc;
     String caution;
     int images;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,7 +73,7 @@ public class Description extends AppCompatActivity {
 
             Toast.makeText(this,cname,Toast.LENGTH_LONG).show();
             // code to read the data from the data base
-            String s = "select DESCRIPTION, STEPS, CAUTION,IMAGE_RESOURCE_ID from YOGA where YOGA.NAME = \'" +cname+"\'";
+            String s = "select DESCRIPTION, STEPS, CAUTION, CODE from YOGA where YOGA.NAME = \'" +cname+"\'";
             Cursor cursor = db.rawQuery(s,null);
             Toast.makeText(Description.this, s, Toast.LENGTH_LONG).show();
             cursor.moveToFirst();
@@ -76,6 +81,7 @@ public class Description extends AppCompatActivity {
             desc = cursor.getString(0);
             caution = cursor.getString(2);
             images = cursor.getInt(3);
+
             db.close();
         }catch (Exception e){
             Toast toast = Toast.makeText(this, "Data unavailable", Toast.LENGTH_SHORT);
@@ -86,8 +92,6 @@ public class Description extends AppCompatActivity {
         cau.setText(caution);
         TextView step = (TextView)findViewById(R.id.steps);
         step.setText(steps);
-        ImageView imageView = (ImageView)findViewById(R.id.info_image);
-        imageView.setImageResource(images);
     }
     // adding logout action to menu bar
 
@@ -119,3 +123,4 @@ public class Description extends AppCompatActivity {
     }
 
 }
+

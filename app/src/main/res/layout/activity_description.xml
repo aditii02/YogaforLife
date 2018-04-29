@@ -14,12 +14,13 @@
             <include
                 layout="@layout/toolbar_main"
                 android:id="@+id/toolbar"/>
-            <ImageView
-                android:id="@+id/info_image"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:src="@drawable/adult"
-                android:scaleType="centerCrop"/>
+            <FrameLayout
+            android:id="@+id/youtube_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:visibility="visible" />
+
+
             <TextView
                 android:id="@+id/yogaHead"
                 android:textStyle="bold"
