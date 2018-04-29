@@ -11,15 +11,12 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:orientation="vertical">
-            <include
-                layout="@layout/toolbar_main"
-                android:id="@+id/toolbar"/>
-            <FrameLayout
-            android:id="@+id/youtube_fragment"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:visibility="visible" />
-
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity">
+            </RelativeLayout>
 
             <TextView
                 android:id="@+id/yogaHead"

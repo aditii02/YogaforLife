@@ -160,7 +160,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 10- Stay in this position for 30 seconds.\n" +
                         "Step 11- Return to the original position by putting your right hand down, straightening your left leg and standing erect." +
                         " Repeat the same with the other side.\n","Benefits: This posture helps to open the ribs and makes the body more flexible. It also gives a boost to self-confidence.",
-                "YOGA FOR KIDS (Reverse Warrior Pose)",0,R.drawable.viparita,"rRbLJZ6");
+                "YOGA FOR KIDS (Reverse Warrior Pose)",0,R.drawable.viparita,"rRbLJZ6-VSw");
 
 
         insertDataYoga(db,"Navasana",

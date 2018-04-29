@@ -1,69 +1,70 @@
 package com.vsa.yogaforlife;
-
-import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteException;
+
 import android.database.sqlite.SQLiteOpenHelper;
-import android.support.annotation.NonNull;
-import android.support.v4.view.MenuItemCompat;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.ShareActionProvider;
-import android.support.v7.widget.Toolbar;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
-import com.google.android.youtube.player.YouTubePlayerSupportFragment;
+import com.google.android.youtube.player.YouTubePlayer.Provider;
 import com.google.android.youtube.player.YouTubePlayerView;
-import com.google.firebase.auth.FirebaseAuth;
 
-public class Description extends AppCompatActivity {
+public class Description extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
+    private static final int RECOVERY_REQUEST = 1;
+    private YouTubePlayerView youTubeView;
+
     public static final String YOGA_NAME= "";
-    FirebaseAuth mAuth;
-    FirebaseAuth.AuthStateListener mAuthListener;
-    private ShareActionProvider shareActionProvider;
+
     String steps;
     String desc;
     String caution;
-    int images;
+    String images;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_description);
+        youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);
+        youTubeView.initialize(Config.YOUTUBE_API_KEY, this);
 
-        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
-        mAuth = FirebaseAuth.getInstance();
-        // an auth  state listener
-        mAuthListener = new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                if (firebaseAuth.getCurrentUser() == null){
-                    startActivity(new Intent(Description.this, MainActivity.class));
-                }
-            }
-        };
 
+
+    }
+    public void onInitializationSuccess(Provider provider, YouTubePlayer player, boolean wasRestored) {
+        if (!wasRestored) {
+            player.cueVideo(images); // Plays https://www.youtube.com/watch?v=fhWaJi1Hsfo
+        }
+    }
+
+    @Override
+    public void onInitializationFailure(Provider provider, YouTubeInitializationResult errorReason) {
+        if (errorReason.isUserRecoverableError()) {
+            errorReason.getErrorDialog(this, RECOVERY_REQUEST).show();
+        } else {
+            String error = String.format(getString(R.string.player_error), errorReason.toString());
+            Toast.makeText(this, error, Toast.LENGTH_LONG).show();
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == RECOVERY_REQUEST) {
+            // Retry initialization if user performed a recovery action
+            getYouTubePlayerProvider().initialize(Config.YOUTUBE_API_KEY, this);
+        }
+    }
+
+    protected Provider getYouTubePlayerProvider() {
+        return youTubeView;
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        mAuth.addAuthStateListener(mAuthListener);
-
 
         SQLiteOpenHelper sqLiteOpenHelper = new MyDatabase(Description.this);
 
@@ -71,7 +72,7 @@ public class Description extends AppCompatActivity {
             String cname = (String)getIntent().getExtras().get(YOGA_NAME);
             SQLiteDatabase db = sqLiteOpenHelper.getReadableDatabase();
 
-            Toast.makeText(this,cname,Toast.LENGTH_LONG).show();
+            Toast.makeText(this,cname,Toast.LENGTH_SHORT).show();
             // code to read the data from the data base
             String s = "select DESCRIPTION, STEPS, CAUTION, CODE from YOGA where YOGA.NAME = \'" +cname+"\'";
             Cursor cursor = db.rawQuery(s,null);
@@ -80,8 +81,7 @@ public class Description extends AppCompatActivity {
             steps = cursor.getString(1);
             desc = cursor.getString(0);
             caution = cursor.getString(2);
-            images = cursor.getInt(3);
-
+            images = cursor.getString(3);
             db.close();
         }catch (Exception e){
             Toast toast = Toast.makeText(this, "Data unavailable", Toast.LENGTH_SHORT);
@@ -93,34 +93,5 @@ public class Description extends AppCompatActivity {
         TextView step = (TextView)findViewById(R.id.steps);
         step.setText(steps);
     }
-    // adding logout action to menu bar
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        MenuItem menuItem = menu.findItem(R.id.share);
-        shareActionProvider = (ShareActionProvider) MenuItemCompat.getActionProvider(menuItem);
-        setShareActionIntent("Best yoga app for daily fitness");
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    private void setShareActionIntent(String s) {
-        Intent intent = new Intent(Intent.ACTION_SEND);
-        intent.setType("text/plain");
-        intent.putExtra(Intent.EXTRA_TEXT, s);
-        shareActionProvider.setShareIntent(intent);
-    }
-    // react when the logout button is clicked
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
-            case R.id.logout:
-                FirebaseAuth.getInstance().signOut();
-
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
 }
 
