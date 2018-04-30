@@ -75,9 +75,9 @@ public class DescriptionMedi extends YouTubeBaseActivity implements YouTubePlaye
 
             Toast.makeText(this,cname,Toast.LENGTH_SHORT).show();
             // code to read the data from the data base
-            String s = "select DESCRIPTION, STEPS, CAUTION, INTENDED, CODE from MEDI where YOGA.NAME = \'" +cname+"\'";
+            String s = "select DESCRIPTION, STEPS, CAUTION, INTENDED, CODE from MEDI where MEDI.NAME = \'" +cname+"\'";
             Cursor cursor = db.rawQuery(s,null);
-            Toast.makeText(DescriptionMedi.this, s, Toast.LENGTH_LONG).show();
+            Toast.makeText(DescriptionMedi.this, s, Toast.LENGTH_SHORT).show();
             cursor.moveToFirst();
             steps = cursor.getString(1);
             desc = cursor.getString(0);

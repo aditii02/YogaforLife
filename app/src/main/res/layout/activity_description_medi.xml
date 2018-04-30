@@ -16,16 +16,13 @@
             xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context=".MainActivity">
+            tools:context=".DescriptionMedi">
 
             <com.google.android.youtube.player.YouTubePlayerView
                 android:id="@+id/youtube_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.google.android.youtube.player.YouTubePlayerView
-                android:id="@+id/music"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+
         </RelativeLayout>
         <TextView
             android:id="@+id/yogaHead"
@@ -61,5 +58,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="30sp"
+            android:text="Music"/>
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
