@@ -657,7 +657,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                 0,R.drawable.baddha,"fP4-KNIZEb0");
 
         insertDataYoga(db,"Poorvottanasana",0,0,0,0,0,
-                0,0,0,0,0,0,0,0,1,0,
+                0,0,0,0,0,0,0,0,1,1,
                 "Step 1- Sit up with the legs stretched out straight in front of you, keeping the feet together and the spine erect. .\n" +
                         "Step 2- Place the palms on the floor around the waist or at shoulder level, fingertips pointing away from you. Do not bend the arms. .\n" +
                         "Step 3- Lean back and support the weight of your body with your hands. .\n" +
