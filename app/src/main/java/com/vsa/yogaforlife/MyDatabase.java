@@ -471,6 +471,237 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "Step 8- Release yourself from the pose\n","Bhujangasana or Cobra Pose is a back-bending yoga asana.","The person who is suffering from peptic ulcers, hernia, intestinal tuberculosis, and hypothyroidism shouldn't practice this asana.",
                    0,R.drawable.bhujan,"fP4-KNIZEb0");
 
+        insertDataYoga(db,"Shavasana",0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,
+                "Step 1- Lie flat on the floor, ensuring that there will be no disturbance for the duration of the pose. Make sure you are comfortable, but don’t use any pillows or cushions. It will be best if you lie on a hard surface.\n" +
+                        "\n" +
+                        "Step 2- Close your eyes.","This pose is usually practiced after an active yoga session. It instills deep healing and completely relaxes your body. You can also practice this pose whenever you are extremely tired and need to get back to work quickly." +
+                        " It is refreshing and rejuvenating.","1. This asana is absolutely safe and can be practiced by anyone and everyone. Unless your doctor has advised you not to lie on your back, you can practice this asana.\n" +
+                        "\n" +
+                        "2. If you are pregnant, it might be a good idea to rest your head and chest on a bolster for comfort.",0,R.drawable.shavasana,"fP4-KNIZEb0");
+
+        insertDataYoga(db,"Halasana",0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,"Step 1- Lie flat on your back, with your arms placed beside your body and your palms facing downwards.\n" +
+                        "Step 2- Inhale, and lift your feet off the ground using your abdominal muscles. Your legs should be at a 90-degree angle.Use your hands to support your hips and lift them off the floor.\n" +
+                        "Step 3- Bring your feet in an 180-degree angle, such that your toes are placed over and beyond your headMake sure your back is perpendicular to the ground.\n" +
+                        "Step 4- Hold the position for a minute while focusing on your breathing. Exhale, and gently bring down your legs. Avoid jerking your legs while releasing the pose.\n.","Just like the other yoga poses, the Halasana is named so because the basic shape of the pose resembles a typical plow used in Tibet and India. ",
+                "Avoid practicing this asana if you have the following problems:\n" +
+                        "a. Diarrhea\n" +
+                        "b. Menstruation\n" +
+                        "c. Neck injury",0,R.drawable.halasana,"fP4-KNIZEb0");
+        insertDataYoga(db,"Dhanurasana",0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,"Step 1- Lie flat on your stomach, keeping your feet hip-width apart and your arms beside your body.Now, gently fold your knees and hold your ankles.\n" +
+                        "Step 2- , and lift your chest and legs off the ground. Pull your legs back.Look straight and keep your face stress-free. A smile should help.\n" +
+                        "Step 3- Hold the pose as you concentrate on breathing. Your body should be as taut as a bow.\n" +
+                        "Step 4- As you get comfortable in the pose, breathe long and deep.\n" +
+                        "Step 5- About 15-20 seconds later, exhale and release the pose","Dhanurasana or the Bow Pose is one of the 12 basic Hatha Yoga poses. It is also one of the three main back stretching exercises. It gives the entire back a good stretch, thus imparting flexibility as well as strength to the back.",
+                "1. These are some points of caution you must keep in mind before you do this asana.\n" +
+                        "2. Women should avoid this asana during pregnancy.\n",0,R.drawable.dhanu,"fP4-KNIZEb0");
+
+        insertDataYoga(db,"Padmasna",0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,
+                "Step 1- Sit on a flat surface on the ground with your spine erect and your legs stretched out.\n" +
+                        "Step 2- Gently bend the right knee, and use your hands to place it on your left thigh. Your soles must point upward, and the heels must be close to your abdomen." +
+                        "Step 3- Do the same with the other leg.\n" +
+                        "Step 4- Now that both your legs are crossed, and your feet are comfortably placed on the opposite thighs, model your hands into a mudra of your choice and place it in position. Typically, the hands are placed on the knees." +
+                        "Step 5- Remember that your head must be straight and the spine erect at all times.\n" +
+                        "Step 6- Breathe long and deep. Hold the position for a few minutes. Release.\n" +
+                        "Step 7- Repeat the pose with the other leg on top.","This asana is a meditative pose, so it is best if you practice this pose in the morning. But having said that, there is no rule that you cannot meditate in the evening.",
+                "1. Avoid doing this asana if you have a knee or ankle injury.\n" +
+                        "2. This asana must be practiced under the guidance of an experienced teacher, especially if you are a novice to this pose. It might look simple, but it is not.",0,R.drawable.padamasna,"fP4-KNIZEb0");
+
+        insertDataYoga(db,"Adho Mukha Svanasana",0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,"Step 1- Stand on four limbs, such that your body forms a table-like structure.\n" +
+                        "Step 2- Exhale and gently lift your hips and straighten your elbows and knees. You need to ensure your body forms an inverted ‘V’.\n" +
+                        "Step 3- Your hands should be in line with your shoulders, and your feet in line with your hips. Make sure that your toes point outwards.\n" +
+                        "Step 4- Now, press your hands into the ground and lengthen your neck. Your ears should touch your inner arms, and you should turn your gaze to your navel.\n" +
+                        "Step 5- Hold for a few seconds, and then, bend your knees and return to the table position.\n","he Adho Mukha Svanasana looks similar to a how a dog looks when it bends forward. This asana has numerous amazing benefits that make it extremely essential for you to practice it every day. ",
+                "It is best to consult a professional trainer or medical practitioner before you do this asana. Avoid practicing this asana if you suffer from:\n" +
+                        "High blood pressure\n" +
+                        "A detached retina\n" +
+                        "A dislocated shoulder\n" +
+                        "Weak eye capillaries\n" +
+                        "Diarrhea.",0,R.drawable.mukha,"fP4-KNIZEb0");
+        // yoga for hair
+
+        insertDataYoga(db,"Sirsasana",0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,
+                "Step 1- Place a sturdy, soft blanket on the floor to cushion your head. Then, kneel down on the floor, and interlace your fingers after you place your forearms on the floor. Make sure your elbows are shoulder width apart. Gently nudge your upper arms outward, and firmly press your inner wrists on the floor.\n" +
+                        "Step 2- Place the crown of your head on the blanket. Set the base of both your palms together, and fit your crown against your clasped hands." +
+                        "Step 3- Breathe in, and lift your knees. Then, walk towards your elbows with your heels lifted off the floor. Now, lift through your thighs such that your body forms an inverted ‘V’. Push your shoulder blades against your back. Then, lift them towards your tailbone so that the front part of your torso is lengthened. This will keep the weight of the shoulders from affecting your head and neck.\n" +
+                        "Step 4- As you breathe out, lift your feet off the floor. It is important to lift both the feet together, even if your knees bend slightly as you lift up. Place the legs perpendicular to the floor, and firm up your tailbone against the back portion of your pelvis. Push your heels up towards the ceiling. Your body should be aligned in a straight line.\n",
+                "This pose entails a complete inversion of the body, with only the support of the forearms. This asana is said to be the king of all asanas.","Avoid this asana at all costs if you suffer from the following issues:\n" +
+                        "Back injury\n" +
+                        "Headaches\n" +
+                        "A heart condition\n" +
+                        "High blood pressure\n" +
+                        "If you are menstruating\n" +
+                        "A neck injury",0,R.drawable.khopadi,"fP4-KNIZEb0");
+
+        insertDataYoga(db,"Vajrasna",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
+                "Step 1- Kneel down, stretching your lower legs backward and keeping them together. Your big toes should cross each other.\n" +
+                        "Step 2- Gently lower your body such that your buttocks are resting on your heels and your thighs on your calf muscles.\n" + "Place your hands on your knees, and set your gaze forward with your head absolutely straight.\n" +
+                        "Turn your attention to your breathing. Be fully aware of how you breathe and carefully observe as you inhale and exhale.\n" +"You could close your eyes to concentrate on your breathing and to calm your mind.\n" +
+                        "Try to stay in this position for a minimum of 5 to 10 minutes.\n","Vajrasana is a kneeling pose, and it takes its name from the Sanskrit word Vajra (वज्), which means diamond or thunderbolt.","1. It is best to avoid this asana if you have a knee problem or have undergone surgery in your knees recently.\n" +
+                        "2. Pregnant women should keep their knees slightly apart when they practice this asana so that they avoid putting pressure on their abdomen.\n" +
+                        "3. If you are suffering from any spinal column ailments on the lower vertebrae, it is best to avoid this pose.",0,R.drawable.vajres  ,"fP4-KNIZEb0");
+
+        insertDataYoga(db,"Pawanmuktasana",0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,
+                "Step 1- Lie flat on your back on a smooth surface, ensuring that your feet are together, and your arms are placed beside your body.\n" +
+                        "Step 2- Take a deep breath. As you exhale, bring your knees towards your chest, and press your thighs on your abdomen. Clasp your hands around your legs as if you are hugging your knees.\n" +
+                        "Step 3- Hold the asana while you breathe normally. Every time you exhale, make sure you tighten the grip of the hands on the knee, and increase the pressure on your chest. Every time you inhale, ensure that you loosen the grip.\n" +
+                        "Step 4- Exhale and release the pose after you rock and roll from side to side about three to five times. Relax.","The Wind-Relieving Pose is a reclined posture that is suitable for everyone, whether they are beginners or advanced practitioners. This pose helps to release digestive gases from the intestines and stomach with great ease.",
+                "1. This asana must be avoided if you have had an abdominal surgery recently. Also, people suffering from hernia or piles must avoid this asana.\n" +
+                        "2. This asana must not be practiced by pregnant women. Menstruating women can avoid this asana if they are not comfortable.\n" +
+                        "3. If you are suffering from heart problems, hyperacidity, high blood pressure, slip disc, hernia, back and neck problems, or a testicle disorder, you must avoid this asana.",0,R.drawable.pawansss,"fP4-KNIZEb0");
+
+        insertDataYoga(db,"Sarvangasana",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
+                "Step 1- Start by lying flat on your back, keeping your legs together and your arms by your side.\n" +
+                        "Step 2- With one swift movement, lift your legs, buttocks, and back, such that your elbows support your lower body, and you stand high on your shoulders. Use your hands to support your back.\n" +
+                        "Step 3- As you settle down in the pose, make sure you move your elbows closer to each other. Straighten your spine and legs. Your body weight should lie on your shoulders and upper arms. Do not support your body on your neck or head.Firm up your legs and point your toes out. Hold the posture for about 30 to 60 seconds. Breathe deeply while you do so. If you feel any strain on your neck, release immediately.\n" +
+                        "Step 4- To release, lower your knees, and bring your hands to the floor. Then, lie flat and relax.",
+                "This asana is called the “mother” or “queen” of all the asanas. It literally translates into all limb pose. But it is called a shoulder stand, only because the weight of your body rests on the bony part of your shoulders.","Avoid practicing this asana if you have the following conditions.\n" +
+                        "a. Diarrhea\n" +
+                        "b. Headache\n" +
+                        "c. High blood pressure\n" +
+                        "d. Menstruation\n" +
+                        "e. Neck injury",0,R.drawable.sarvaniii,"fP4-KNIZEb0");
+        // yoga for eye
+
+        insertDataYoga(db,"Palming",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"To do Palming, sit in a comfortable position. Rub your palms against each other, vigorously until you can feel the heat radiating from them. Place the palms over your closed eyes and feel the warmth spreading.",
+                " Palming is warming up your eyes for better circulation. It is a quick and easy way to relax your eyes. It improves blood circulation and keeps tiredness and puffiness at bay.","Do it gently",0,R.drawable.palm,"fP4-KNIZEb0");
+
+        insertDataYoga(db,"Trataka",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Sit down comfortably, either in Padmasana or Vajrasana. Place a candle at about two feet from where you are sitting. Light the candle and gaze at the flame without blinking. You can count numbers in your head to keep track of time and for your mind to not waver. Look as long as you can. The longer you do, the better.\n",
+                "Trataka means to gaze at an object continuously for a fixed period. Doing so improves your concentration and vision. This eye exercise lowers high myopic eye powers.","Do it gently",0,R.drawable.tratakk,"fP4-KNIZEb0");
+
+        insertDataYoga(db,"Eye-Rotation- Sideways",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"To do sideway rotation, sit down in Padmasana keeping your head and back erect. Stretch your arms forward with your fists clasped and closed and thumbs facing upwards, replicating the Linga mudra. Keep your gaze fixed on the thumbs. Bring the clasped fists closer to your eyes, placing them in between your eyebrows. Move the fists to the right, with your eyeballs following the path. The head should remain straight while doing so. Bring the fists back to in between the eyebrows with your eyes following back." +
+                " Repeat the same on the left side. Repeat the entire procedure ten times, closing your eyes for 10 seconds after every repetition."," Side movement of eyeballs is good for people with myopia and hypermetropia.","Do it gently",0,R.drawable.sideways,"fP4-KNIZEb0");
+
+        insertDataYoga(db,"Anuloma – Viloma Pranayama",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Sitting in Padmasana or Sukhasana, stretch out your hands, resting the palms on your knees in yoga mudra.Lift your right hand in Pranayama mudra.Using the thumb, close the right nostril.Take a deep inhalation with the left nostril.Closing the left nostril, allow exhalation through the right nostril.Now, inhale through the right nostril and allow exhalation via left nostril.This completes one round of Anuloma – Viloma Pranayama." +
+                "Repeat for 10 to 15 times to start with, increasing to 50 to 75 times, gradually.\n","This is the easiest of the pranayamas and is also known as the alternate nostril breathing exercise.","Do it gently",0,R.drawable.anuu,"fP4-KNIZEb0");
+
+        //yoga for liver
+
+        insertDataYoga(db," Ardha Matsyendrasana",0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,
+                "Step 1- This asana is performed by sitting cross-legged and crossing your left foot over the right one.\n" +
+                        "Step 2- Your knees should be raised above the surface and pointing upwards.\n" +
+                        "Step 3- Move your right hand over your left leg and hold your left foot, press your left leg gently against your abdomen, turning your head to the right side at the same time.","This is a pose that is also known as the King of the Fish Pose. It is known to be highly beneficial for the liver. It helps in putting pressure on the liver," +
+                        " which in turn strengthens and stimulates the liver that is damaged by fibrosis, apoptosis, inflammation and stress.","By practicing yoga and being careful about what you eat every day, you can improve your liver’s health and keep diseases away. You also gain a healthy body that is full of strength and vitality.",
+                0,R.drawable.ardha,"fP4-KNIZEb0");
+
+        insertDataYoga(db,"Gomukhasana",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,
+                "Step 1- The first step to performing this exercise is to squat on the surface with one leg crossed over the other.\n" +
+                        "Step 2- Allow your spine to stretch out.\n" +
+                        "Step 3- Place your hands on your back with one over your shoulder and the other over your rib area.\n" +
+                        "Step 4- Clasp your hands at the back and hold the pose.","This pose is also known as the Cow Face Pose. It is one of the best asanas for the treatment of cirrhosis. When you suffer from liver cirrhosis, oxygenation and blood flow are prevented by scar tissues.","By practicing yoga and being careful about what you eat every day, you can improve your liver’s health and keep diseases away. You also gain a healthy body that is full of strength and vitality.",0,R.drawable.mukha,"fP4-KNIZEb0");
+        insertDataYoga(db,"Naukasana",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,
+                "Step 1- You can perform this asana by lying on your back.\n" +
+                        "Step 2- Raise both the upper and lower portions of your body, making your body rest on your buttocks.\n" +
+                        "Step 3- Remain in this pose for as long as possible.\n" +
+                        "Step 4- Return to the resting position and repeat it.","This is another pose that is known as the Boat Pose, and it is a simple yet effective asana for helping treat liver cancer. By performing this exercise, you help in the stimulation and strengthening of your liver, allowing it to clean all the harmful toxins in your body.",
+                "By practicing yoga and being careful about what you eat every day, you can improve your liver’s health and keep diseases away. You also gain a healthy body that is full of strength and vitality.",
+                0, R.drawable.naukasa,"fP4-KNIZEb0");
+
+        // yoga for body detox
+
+        insertDataYoga(db,"Trikonasana (Triangle Pose)",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
+                "Step 1- Stand straight. Separate your feet comfortably wide apart (about 31/2 to 4 feet).\n" +
+                        "Step 2- Turn your right foot out 90 degrees and left foot in by 15 degrees.\n" +
+                        "Step 3- Now align the center of your right heel with the center of your arch of left foot.\n" +
+                        "Step 4- Ensure that your feet are pressing the ground and the weight of your body is equally balanced on both the feet.\n" +
+                        "Step 5- Inhale deeply and as you exhale, bend your body to the right, downward from the hips, keeping the waist straight, allowing your left hand to come up in the air while your right hand comes down towards floor. Keep both arms in straight line.\n" +
+                        "Step 6- Rest your right hand on your shin, ankle, or the floor outside your right foot, whatever is possible without distorting the sides of the waist. Stretch your left arm toward the ceiling, in line with the tops of your shoulders. Keep your head in a neutral position or turn it to the left, eyes gazing softly at the left palm.\n" +
+                        "Step 7- Ascertain that your body is bent sideways and not backward or forward. Pelvis and chest are wide open.\n" +
+                        "Step 8- Stretch maximum and be steady. Keep taking in long deep breaths. With each exhalation, relax the body more and more. Just be with the body and the breath.\n" +
+                        "Step 9- As you inhale, come up, bring your arms down to your sides, and straighten your feet.\n" +
+                        "Step 10- Repeat the same on the other side.","The asana is pronounced as Tree-kone-nah -sah-nah\n" +
+                        "Unlike most yoga postures, the Triangle Pose requires keeping the eyes open in order to maintain body balance.","1. Make sure you have done a good warm up exercise of the whole body before you do the asana.\n" +
+                        "2. While bending forward do it slowly and gently so as not to lose balance.",0,R.drawable.trikoooo,"fP4-KNIZEb0");
+
+        insertDataYoga(db,"Paschimottanasana",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
+                "Step 1- Sit up with the legs stretched out straight in front of you, keeping the spine erect and toes flexed toward you.\n" +
+                        "Step 2- Breathing in, raise both arms above your head and stretch up.\n" +
+                        "Step 3- Breathing out, bend forward from the hip joints, chin moving toward the toes. Keep the spine erect focusing on moving forwards towards the toes, rather than down towards the knees.\n" +
+                        "Step 4- Place your hands on your legs, wherever they reach, without forcing. If you can, take hold of your toes and pull on them to help you go forward.Breathing in, lift your head slightly and lengthen your spine.\n" +
+                        "Step 5- Breathing out, gently move the navel towards the knees.\n" +
+                        "Step 6- Repeat this movement two or three times.\n" +
+                        "Step 7- Drop your head down and breathe deeply for 20-60 seconds.\n" +
+                        "Step 8- Stretch the arms out in front of you.\n" +
+                        "Step 9- Breathing in, with the strength of your arms, come back up to the sitting position.\n" +
+                        "Step 10- Breathe out and lower the arms.","Paschim = west; uttana = stretched out; asana = pose","Make sure you have done a good warm up exercise of the whole body before you do the asana.",
+                0,R.drawable.paschim,"fP4-KNIZEb0");
+
+        insertDataYoga(db,"Setu Bandhasana",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
+                "Step 1- To begin, lie on your back.\n" +
+                        "Step 2- Fold your knees and keep your feet hip distance apart on the floor, 10-12 inches from your pelvis, with knees and ankles in a straight line.\n" +
+                        "Step 3- Keep your arms beside your body, palms facing down.\n" +
+                        "Step 4- Inhaling, slowly lift your lower back, middle back and upper back off the floor; gently roll in the shoulders; touch the chest to the chin without bringing the chin down, supporting your weight with your shoulders, arms and feet. Feel your bottom firm up in this pose. Both the thighs are parallel to each other and to the floor.\n" +
+                        "Step 5- If you wish, you could interlace the fingers and push the hands on the floor to lift the torso a little more up, or you could support your back with your palms.\n" +
+                        "Step 6- Keep breathing easily.\n" +
+                        "Step 7- Hold the posture for a minute or two and exhale as you gently release the pose.","Setu – Bridge; Bandha – Bind, Lock; Asana – Pose, Posture\n" +
+                        "This asana is pronounced as SAY-tuh-bun-DHAHS-ana."+ "The pose resembles a bridge, hence the name.\n","Avoid doing this pose if you are suffering from neck and back injuries.",
+                0,R.drawable.setu,"fP4-KNIZEb0");
+
+        // yoga for energy
+        insertDataYoga(db,"Badhakonasana",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+                "Step 1- Sit with your spine erect and legs spread straight out.\n" +
+                        "Step 2- Now bend your knees and bring your feet towards the pelvis. The soles of your feet should touch each other.\n" +
+                        "Step 3- Grab your feet tightly with your hands. You may place the hands underneath the feet for support.\n" +
+                        "Step 4- Make an effort to bring the heels as close to the genitals as possible.\n" +
+                        "Step 5- Take a deep breath in. Breathing out, press the thighs and knees downward towards the floor. Make a gentle effort to keep pressing them downward.\n" +
+                        "Step 6- Now start flapping both the legs up and down like the wings of a butterfly. Start slow and gradually increase the speed. Keep breathing normally throughout.\n" +
+                        "Step 7- Fly higher and higher, as fast as you comfortably can. Slow down and then stop. Take a deep breath in and as you exhale, bend forward, keeping the chin up and spine erect.\n" +
+                        "Step 8- Press your elbows on the thighs or on the knees, pushing the knees and thighs closer to the floor.\n" +
+                        "Step 9- Feel the stretch in the inner thighs and take long, deep breaths, relaxing the muscles more and more.\n" +
+                        "Step 10- Take a deep breath in and bring the torso up.\n" +
+                        "Step 11- As you exhale, gently release the posture. Straighten the legs out in front of you and relax.","Badha = Bound or Restrained, Kona = Angle, Asana = Pose or Posture \n" +
+                        "\n" +
+                        "This pose is pronounced as BAH-dah-cone-AHS-ana\n" +
+                        "\n" +
+                        "The posture is named Badhakonasana because of the way it is carried out – both the feet tucked close to the groin, clasped tightly with the hands as though tied or bound together in a particular angle.",
+                "f you are suffering from groin or knee injury, make sure you keep a blanket under the outer thighs for support. Do not perform this pose without blanket support. Also, sciatica patients should either completely avoid the pose or sit on a cushion to raise the hips.",
+                0,R.drawable.baddha,"fP4-KNIZEb0");
+
+        insertDataYoga(db,"Poorvottanasana",0,0,0,0,0,
+                0,0,0,0,0,0,0,0,1,0,
+                "Step 1- Sit up with the legs stretched out straight in front of you, keeping the feet together and the spine erect. .\n" +
+                        "Step 2- Place the palms on the floor around the waist or at shoulder level, fingertips pointing away from you. Do not bend the arms. .\n" +
+                        "Step 3- Lean back and support the weight of your body with your hands. .\n" +
+                        "Step 4- Breathing in, raise the pelvis up, keeping the whole body straight. .\n" +
+                        "Step 5- Keep your knees straight and bring the feet flat to the floor. Place the toes on the ground and the sole will then tend to be on the ground. Let the head fall back towards the floor. .\n" +
+                        "Step 6- Hold the pose and continue breathing. .\n" +
+                        "Step 7- As you exhale, come back to a sitting position and relax. .\n" +
+                        "Step 8- Repeat the posture with your fingers pointing in the opposite direction.","The literal meaning of this asana (posture) is to stretch towards the east. However, this has nothing to do with stretching in the east direction. Poorvottanasana specifically refers to the flow of pranaic subtle energies in the \"eastern\" frontal side.",
+                "Since the whole weight of the body is to be supported mainly by the hands and wrists, people with wrist injuries should avoid this asana. Also, those suffering from any neck injury should either completely avoid doing this posture or use the support of a chair while practicing the pose.",
+                0,R.drawable.poorviiiii,"fP4-KNIZEb0");
+
+        insertDataYoga(db,"Shishuasana",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+                "Step 1- Sit on your heels. Keeping your hips on the heels, bend forward, and lower your forehead to the floor.\n" +
+                        "Step 2- Keep the arms alongside your body with hands on the floor, palms facing up. (If this is not comfortable, you can place one fist on top of another and rest your forehead on them.)\n" +
+                        "Step 3- Gently press your chest on the thighs.\n" +
+                        "Step 4- Hold.\n" +
+                        "Step 5- Slowly come up to sit on the heels, uncurling vertebra by vertebra and relax.\n","Deeply relaxing for the back.\n" +
+                        "Relieves constipation.\n" +
+                        "Calms down the nervous system.","In case of serious back or knee injuries avoid this pose.\n" +
+                        "Pregnant women should avoid doing this pose.\n" +
+                        "Avoid this pose if you suffering from are or had recently suffered from diarrhea.",0,R.drawable.shishu,"fP4-KNIZEb0");
+
+        insertDataYoga(db,"Janu Shirasasan",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+                "Step 1- Sit up with the legs stretched out straight in front of you, keeping the spine erect.\n" +
+                        "Step 2- Bend the left knee and place the left foot against the right thigh, keeping the left knee on the floor.\n" +
+                        "Step 3- Breathing in, raise both arms above your head and stretch up, and twist a little to the right from the waist.\n" +
+                        "Step 4- Breathing out, bend forward from the hip joints keeping the spine straight, directing your chin to the toes.\n" +
+                        "Step 5- If you can, hold on to your big toes and, pointing your elbows to the ground, move forward as you pull on your toes.\n" +
+                        "Step 6- Hold. Keep breathing.\n" +
+                        "Step 7- Breathing in, come up and breathing out, bring the arms down to the sides.\n" +
+                        "Step 8- Repeat on the other side.","Stretches lower back\n" +
+                        "Massages the abdominal organs and tones the shoulders",
+                "Those suffering from any neck injury should completely avoid doing this posture",0,R.drawable.januu,"fP4-KNIZEb0");
+
+        //yoga for ortho
+
+        insertDataYoga(db,"Locust Pose (Salabhasana)",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,
+                "To perform this pose, begin by raising your legs and the upper torso. Hold this pose for 10 seconds and repeat it thrice. The locust pose also helps relieve you of back pain.","The grasshopper or the locust pose is a great exercise for the back and the legs. It also helps strengthen your bones.",
+                " Ensure you are properly hydrated.Use your yoga mat.",0,R.drawable.locustttt,"fP4-KNIZEb0");
+
+        insertDataYoga(db,"Ardha Chandrasana",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,
+                " Begin standing in Tadasana (Mountain Pose) in the center of your mat. Step your feet hip width apart, keeping them parallel to the outer edges of your mat. Inhale and extend your arms out parallel to the floor.",
+                "This pose helps tone the legs, abdomen, spine and glutes. It also helps cure osteoporotic pain and helps strengthen the bones. You can use a block for any variations to the normal pose.","Ensure you are properly hydrated.Use your yoga mat.",0,R.drawable.ardha,"fP4-KNIZEb0");
+
         // call functions here to add data //
 
 
