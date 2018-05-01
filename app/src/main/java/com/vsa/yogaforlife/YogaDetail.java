@@ -19,12 +19,8 @@ public class YogaDetail {
             new YogaDetail("Hair", R.drawable.hair),
             new YogaDetail("Ortho", R.drawable.ortho),
             new YogaDetail("Stress", R.drawable.stress),
-            new YogaDetail("Mind", R.drawable.mind),
-            new YogaDetail("Energy", R.drawable.energy)
-
-
-
-
+            new YogaDetail("Mind", R.drawable.mind)
+            //new YogaDetail("Energy", R.drawable.energy)
     };
     private YogaDetail(String name, int id){
         this.name = name;

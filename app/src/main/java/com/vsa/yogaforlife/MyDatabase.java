@@ -209,7 +209,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 4- Now, slowly lift your legs upwards.\n" +
                         "Step 5- Stay in this position for a few seconds.\n" +
                         "Step 6- Lower down your legs, gently.\n","Benefits: Flower pose helps to build strength, as well as helps to improve balance.",
-                "YOGA FOR KIDS (Flower Pose)",0,R.drawable.balasa,"fP4-KNIZEb0");
+                "YOGA FOR KIDS (Flower Pose)",0,R.drawable.balasa,"33L6oog4sbY");
 
         insertDataYoga(db,"Adho Mukha Svanasana",
                 1,0,0,0,0,
@@ -221,19 +221,16 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 5- Pull your soles upwards.\n" +
                         "Step 6- Breathe normally and stay in this pose for a few seconds.\n" +
                         "Step 7- Return to the original posture while exhaling.\n","Benefits: This yoga posture helps to calm your mind and provides energy to your body. It stretches the upper body area, which helps to relieve headaches and back pain.",
-                "YOGA FOR KIDS (Downward Facing Dog Pose)",0,R.drawable.adho,"fP4-KNIZEb0");
+                "YOGA FOR KIDS (Downward Facing Dog Pose)",0,R.drawable.adho,"n9NmO53_biY");
 
-        insertDataYoga(db,"Star Pose",
-                1,0,0,0,0,
-                0, 0, 0, 0, 0,
-                0, 1,0,0,0,
-                "Step 1- Start with the star pose.\n" +
+        insertDataYoga(db,"Star pose",1,0,0,0,0,0 ,0,0, 0, 0, 0, 0,
+                0, 1,0,"Step 1- Start with the star pose.\n" +
                         "Step 2- Slide your right leg backwards and raise it a little bit upwards from the floor.\n" +
                         "Step 3- Shift your body weight on your left leg.\n" +
                         "Step 4- Lean towards your left leg.\n" +
                         "Step 5- Stay in this position for 5-10 seconds.\n" +
                         "Step 6- Lower your hands down and stand straight.\n","Benefits: Star pose helps to improve your balance and also helps in stretching the chest and shoulders. This pose also helps to build-up the strength.",
-                "YOGA FOR KIDS",0,R.drawable.adho,"fP4-KNIZEb0");
+                "YOGA FOR KIDS",0,R.drawable.adho,"AY_80tcrOg4");
 
         insertDataYoga(db,"Kite Pose",
                 1,0,0,0,0,
@@ -244,7 +241,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 4- Your body posture should be in a star shape. Breathe normally.\n" +
                         "Step 5- Stay in this posture for a few seconds.\n" +
                         "Step 6- Lower down your hands and stand straight.\n","Benefits: Star pose helps to improve your balance and also helps in stretching the chest and shoulders. This pose also helps to build-up the strength.",
-                "YOGA FOR KIDS (Falling Star)",0,R.drawable.kite,"fP4-KNIZEb0");
+                "YOGA FOR KIDS (Falling Star)",0,R.drawable.kite,"");
 
         insertDataYoga(db,"Ananda Balasana",
                 1,0,0,0,0,
@@ -255,12 +252,12 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 3- Hold your feet with your palms.\n" +
                         "Step 4- Stay in this position for 5 to 7 seconds.\n" +
                         "Step 5- Gently, lower down your legs.\n","Benefits: Happy baby pose helps to pacify the mind and body, and decreases the level of stress. It also stretches the spinal cord.",
-                "YOGA FOR KIDS (Happy Baby Pose)",0,R.drawable.anand,"fP4-KNIZEb0");
+                "YOGA FOR KIDS (Happy Baby Pose)",0,R.drawable.anand,"76F6Rt_F9fQ");
 
 
         // for Seniors
 
-        insertDataYoga(db,"Mountain Pose",
+        insertDataYoga(db,"Mountain pose",
                 0,1,1,0,0,
                 0,0,0,0,0,
                 0, 1,0,0,0,
@@ -268,7 +265,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 2- Draw your abdominals in and up and relax your shoulders down and back.\n" +
                         "Step 3- Breathe five to eight breaths while actively engaging your leg muscles.\n",
                 "Helps with balance and grounding through the feet.",
-                "YOGA FOR Seniors",0,R.drawable.mountain,"fP4-KNIZEb0");
+                "YOGA FOR Seniors",0,R.drawable.mountain,"Bz1SWd-cihA");
 //
         insertDataYoga(db,"Tree Pose",
                 0,1,1,0,0,
@@ -277,7 +274,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                 "Good for seniors to do for balance and concentration. " +
                         "It’s ok for the leg to be lower on the inner standing leg.\n Start with Baby Tree or use a chair for support.",
                 "Excellent for leg and abdominal strength.",
-                "YOGA FOR Seniors",0,R.drawable.tree,"fP4-KNIZEb0");
+                "YOGA FOR Seniors",0,R.drawable.tree,"wdln9qWYloU");
 
         insertDataYoga(db,"Bird Dog",
                 0,1,1,0,0,
@@ -287,7 +284,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                 "Step 2- Imagine you have a tea cup on your back and draw your belly button towards your spine.\n"+
                 "Step 3- Stay for a breath, then switch sides.\n",
                 "Good for abdominals and back support. The health of the spine is extremely important as we age. Bird Dog is great for strengthening the transverse abdominals and the back body. Also keeps brain healthy.",
-                "YOGA FOR Seniors",0,R.drawable.bird,"fP4-KNIZEb0");
+                "YOGA FOR Seniors",0,R.drawable.bird,"0XRYzGtnkCw");
 
         insertDataYoga(db,"Twisted Utkatasana (Chair pose)", 0 ,1 ,0 ,0,0,0,1,0
                   ,0,0,0,0,0,0,0,
@@ -300,7 +297,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 4- Keeping your hands in the same position, inhaling, get up slowly and stand on your toes.\n" +
                         "\n" +
                         "Step 5- Exhale, hands down and heels down simultaneously.\n",
-                        "Strengthens thigh and pelvic muscles.\n","perform on a yoga mat",0,R.drawable.twistedchairpose,"fP4-KNIZEb0");
+                        "Strengthens thigh and pelvic muscles.\n","perform on a yoga mat",0,R.drawable.twistedchairpose,"YqcJu6QuHQc");
 
         insertDataYoga(db,"Virabhadrasana I",0,0,0,0,0,0,1,0,0,0
                 ,0,0,0,0,0,
@@ -314,7 +311,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                 "– This asana lets you explore your upper body. Your chest opens up, and your legs are strengthened. It also restores the health of the spine and prepares it to take the weight of the growing uterus. " +
                         "It also relaxes the mind and helps you focus and balance.",
                 " Make sure you practice this asana next to a wall or with a chair beside you for instant support in case you lose balance." +
-                        " Also, as your pregnancy progresses, lessen the widening of your feet to reduce the strain on your pelvic floor.",0,R.drawable.virabhadrasana1,"fP4-KNIZEb0");
+                        " Also, as your pregnancy progresses, lessen the widening of your feet to reduce the strain on your pelvic floor.",0,R.drawable.virabhadrasana1,"1oumWGKg2mE");
         insertDataYoga(db,"Virabhadrasana II",0,0,0,0,0,0,1,0,0,0,0,0
                 ,0,0,0,
                 "Step 1- Widen your legs such that they are hip-width apart. Twist the right heel and point the toes outward. \n" +
@@ -329,7 +326,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                 "1. Make sure you practice this asana next to a wall or with a chair beside you for instant support in case you lose balance. " +
                         "Also, as your pregnancy progresses, lessen the widening of your feet to reduce the strain on your pelvic floor.\n" +
                         "2. Turn your gaze to your left hand.\n" +
-                        "3. Hold the pose till you are comfortable, and then release. Repeat on the other side.\n",0,R.drawable.virabhadrasana2,"fP4-KNIZEb0");
+                        "3. Hold the pose till you are comfortable, and then release. Repeat on the other side.\n",0,R.drawable.virabhadrasana2,"WSOz2asM9LA");
         insertDataYoga(db,"Bitilasana",0,0,0,0,0,0,1,0,0,0,0,0,
                 0,0,0,
                 "Step 1- Ideally, this asana is done in combination with the Marjariasana, and together, the asanas are called the Cat-Cow.\n" +
@@ -343,7 +340,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "As you inch towards your final trimester, it helps the baby move in the right direction with its head towards the cervix.\n" +
                         "It also encourages the push that the baby needs to move towards the cervix.\n",
                 "– Make sure you do not feel any strain on your back or abdomen when you practice this asana. Stop as soon as you do. You can also use this asana to bond with your unborn child. Imagine wrapping yourself around your child as you do this asana.\n" +
-                        "Best To Practice In – Trimesters 1 & 3\n",0,R.drawable.cowpose,"fP4-KNIZEb0");
+                        "Best To Practice In – Trimesters 1 & 3\n",0,R.drawable.cowpose,"Ov65nNSWrfw");
 
         insertDataYoga(db," Balasana",0,0,0,0,0,0,1,0,0,0,0,0,0
                 ,0,0,
@@ -354,7 +351,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 5- Stretch out your arms, \n",
                 "– This asana is a relaxing pose. It relaxes both the back and the mind. The best part about it is that it does so without putting any pressure on your abdomen. This asana also flexes and massages the internal organs, thereby stimulating them. It also releases trapped stress in the muscles and improves blood circulation. " +
                         "It helps battle dizziness, fatigue, and nausea that the first trimester of pregnancy brings with it.",
-                "Perform on a yoga mat",0,R.drawable.cowpose,"fP4-KNIZEb0");
+                "Perform on a yoga mat",0,R.drawable.cowpose,"uxY2UofbghA");
 
         insertDataYoga(db,"Big Toe Pose",0,0,0,0,0,0,0,0,1,0,0,0,0
                         ,0,0,
@@ -375,7 +372,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "3. Most beginners should start yoga in the presence of a trained instructor.\n" +
                         "4. That way they not only learn the correct way of the pose but can immediately seek relief should there be any pain.\n" +
                         "5. If you have any lower back or neck injuries or pain, this pose is not advisable.\n" +
-                        "6. If you have weak ankles, you should not do the advanced versions of the big toe pose.\n",0,R.drawable.bigtoepose,"fP4-KNIZEb0");
+                        "6. If you have weak ankles, you should not do the advanced versions of the big toe pose.\n",0,R.drawable.bigtoepose,"INtjr2jjtmU");
 
         insertDataYoga(db,"paripurna navasana(boat pose)",0,0,0,0,0,0,0,0,1,0,0
                 ,0,0,0,0,
@@ -389,7 +386,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Helps relieve stress\n" +
                         "Improves digestion\n",
                 "1. Strain on certain muscles in the body is generally as far as it goes when it comes to possibilities of something going wrong and, as a result, means that you avoid straining your body beyond more than its capacity and ability.\n" +
-                        "2. In the event that you are already suffering from a head injury, you should ensure that your head is maintained in direct line with your torso.\n",0,R.drawable.boatpose,"fP4-KNIZEb0");
+                        "2. In the event that you are already suffering from a head injury, you should ensure that your head is maintained in direct line with your torso.\n",0,R.drawable.boatpose,"8KsyQvwi85Q");
 
         insertDataYoga(db,"Mariayasana(Cat pose)",0,0,0,0,0,0,0,0,1,0,0
                 ,0,0,0,0,
@@ -402,7 +399,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Provides a gentle massage to the spine and belly organs\n",
                 "1. In the event that you are already suffering from a head injury, you should ensure that your head is maintained in direct line with your torso.\n" +
                         "2. It will also help to have a trained yoga professional to guide you with the movements so that you perform the poses in the right manner and not stress out your body.\n" +
-                        "3. Begin with preparatory poses in order to flex your muscles and prepare them to perform the difficult yoga postures.\n",0,R.drawable.catpose,"fP4-KNIZEb0");
+                        "3. Begin with preparatory poses in order to flex your muscles and prepare them to perform the difficult yoga postures.\n",0,R.drawable.catpose,"y39PrKY_4JM");
 
         insertDataYoga(db,"Baddha kanasana(bound angle pose)",0,0,0,0,0,0,0,0,1,0,
 0,0,0,0,0,
@@ -413,7 +410,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                         "Step 5- Press the sitting bones in the floor and let the crown of the head point to the ceiling to lengthen the spinen Imagine your knees opening like the wings of the butterfly\n" +
                         "Step 6- Remain in this pose for upto 2 minutes before returning to staff pose\n",
                 "Stretches groin and inner thighs.Increases the flexibility of hips, ankles, knees and feete Improves circulation. Opens pelvic region. Excellent prenatal exercise and relieves menstrual problems\n","- Knee or hip problems\n",0,
-R.drawable.boundangle,"fP4-KNIZEb0");
+R.drawable.boundangle,"ti3tbscESUY");
 
         insertDataYoga(db,"Bitilasana (Cow Pose)",0,0,0,0,0,0,0,0,1,0
                 ,0,0,0,0,0,
@@ -428,7 +425,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "Step 9- After that, exhale and come get back into the starting position.\n","This asana helps to stretch the neck and the front part of the torso. \n" + "It is also a stress relieving pose.\n" +
                         "It massages the internal organs and also helps increase blood circulation throughout the body.\n","1. If you have a sensitive neck, do not crunch the back of the neck too much as you look up. " +
                         "It is best to look forward to avoiding the strain. Also, make sure your shoulders are away from your ears.\n" +
-                        "2. Consult a doctor before you do this pose in case you have a neck injury. It is best to practice yoga under the supervision of doctor.\n",0,R.drawable.lidneycowpose,"fP4-KNIZEb0");
+                        "2. Consult a doctor before you do this pose in case you have a neck injury. It is best to practice yoga under the supervision of doctor.\n",0,R.drawable.lidneycowpose,"kqnua4rHVVA");
 
 
         insertDataYoga(db,"Tadasana",0,0,0,0,0,0,0,1,0,0,0,0,0
@@ -445,7 +442,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "2. The patient of varicose vein should avoid it.\n" +
                         "3. In case of dizziness, it is better to perform this.\n" +
                         "4. This Asana shouldn’t be held for a longer period who have headache, insomnia and low blood pressure.\n" +
-                        "5. Excess extension may cause knee problems.\n",0,R.drawable.tad,"fP4-KNIZEb0");
+                        "5. Excess extension may cause knee problems.\n",0,R.drawable.tad,"6TUS8UwfCO0");
 
         insertDataYoga(db,"Utkatasana",0,0,0,0,0,0,0,1,0,0,0,0,
 0,0,0,"Step 1- Stand on the floor in a straight position\n" +
@@ -459,7 +456,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "Headaches\n" +
                         "Knee problems\n" +
                         "Insomnia\n" +
-                        "Low blood pressure",0,R.drawable.utkat,"fP4-KNIZEb0");
+                        "Low blood pressure",0,R.drawable.utkat,"zFWIGX0xYJU");
         insertDataYoga(db,"Bhujangasana",0,0,0,0,0,0,0,1,0,0
                 ,0,0,0,0,0,"Step 1- Lie down on the floor on your stomach. Rest your face on your chin\n" +
                         "Step 2- Close your eyes\n" +
@@ -469,7 +466,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "Step 6- Close your eyes\n" +
                         "Step 7- Remain steady and relax\n" +
                         "Step 8- Release yourself from the pose\n","Bhujangasana or Cobra Pose is a back-bending yoga asana.","The person who is suffering from peptic ulcers, hernia, intestinal tuberculosis, and hypothyroidism shouldn't practice this asana.",
-                   0,R.drawable.bhujan,"fP4-KNIZEb0");
+                   0,R.drawable.bhujan,"QUIfEpiSCf8");
 
         insertDataYoga(db,"Shavasana",0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,
                 "Step 1- Lie flat on the floor, ensuring that there will be no disturbance for the duration of the pose. Make sure you are comfortable, but don’t use any pillows or cushions. It will be best if you lie on a hard surface.\n" +
@@ -477,7 +474,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "Step 2- Close your eyes.","This pose is usually practiced after an active yoga session. It instills deep healing and completely relaxes your body. You can also practice this pose whenever you are extremely tired and need to get back to work quickly." +
                         " It is refreshing and rejuvenating.","1. This asana is absolutely safe and can be practiced by anyone and everyone. Unless your doctor has advised you not to lie on your back, you can practice this asana.\n" +
                         "\n" +
-                        "2. If you are pregnant, it might be a good idea to rest your head and chest on a bolster for comfort.",0,R.drawable.shavasana,"fP4-KNIZEb0");
+                        "2. If you are pregnant, it might be a good idea to rest your head and chest on a bolster for comfort.",0,R.drawable.shavasana,"SfAoPVt64LE");
 
         insertDataYoga(db,"Halasana",0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,"Step 1- Lie flat on your back, with your arms placed beside your body and your palms facing downwards.\n" +
                         "Step 2- Inhale, and lift your feet off the ground using your abdominal muscles. Your legs should be at a 90-degree angle.Use your hands to support your hips and lift them off the floor.\n" +
@@ -486,14 +483,14 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                 "Avoid practicing this asana if you have the following problems:\n" +
                         "a. Diarrhea\n" +
                         "b. Menstruation\n" +
-                        "c. Neck injury",0,R.drawable.halasana,"fP4-KNIZEb0");
+                        "c. Neck injury",0,R.drawable.halasana,"D8VPVv5_bXU");
         insertDataYoga(db,"Dhanurasana",0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,"Step 1- Lie flat on your stomach, keeping your feet hip-width apart and your arms beside your body.Now, gently fold your knees and hold your ankles.\n" +
                         "Step 2- , and lift your chest and legs off the ground. Pull your legs back.Look straight and keep your face stress-free. A smile should help.\n" +
                         "Step 3- Hold the pose as you concentrate on breathing. Your body should be as taut as a bow.\n" +
                         "Step 4- As you get comfortable in the pose, breathe long and deep.\n" +
                         "Step 5- About 15-20 seconds later, exhale and release the pose","Dhanurasana or the Bow Pose is one of the 12 basic Hatha Yoga poses. It is also one of the three main back stretching exercises. It gives the entire back a good stretch, thus imparting flexibility as well as strength to the back.",
                 "1. These are some points of caution you must keep in mind before you do this asana.\n" +
-                        "2. Women should avoid this asana during pregnancy.\n",0,R.drawable.dhanu,"fP4-KNIZEb0");
+                        "2. Women should avoid this asana during pregnancy.\n",0,R.drawable.dhanu,"MqLqE8yd_uo");
 
         insertDataYoga(db,"Padmasna",0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,
                 "Step 1- Sit on a flat surface on the ground with your spine erect and your legs stretched out.\n" +
@@ -504,7 +501,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "Step 6- Breathe long and deep. Hold the position for a few minutes. Release.\n" +
                         "Step 7- Repeat the pose with the other leg on top.","This asana is a meditative pose, so it is best if you practice this pose in the morning. But having said that, there is no rule that you cannot meditate in the evening.",
                 "1. Avoid doing this asana if you have a knee or ankle injury.\n" +
-                        "2. This asana must be practiced under the guidance of an experienced teacher, especially if you are a novice to this pose. It might look simple, but it is not.",0,R.drawable.padamasna,"fP4-KNIZEb0");
+                        "2. This asana must be practiced under the guidance of an experienced teacher, especially if you are a novice to this pose. It might look simple, but it is not.",0,R.drawable.padamasna,"WtjHq0HLkaM");
 
         insertDataYoga(db,"Adho Mukha Svanasana",0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,"Step 1- Stand on four limbs, such that your body forms a table-like structure.\n" +
                         "Step 2- Exhale and gently lift your hips and straighten your elbows and knees. You need to ensure your body forms an inverted ‘V’.\n" +
@@ -516,7 +513,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "A detached retina\n" +
                         "A dislocated shoulder\n" +
                         "Weak eye capillaries\n" +
-                        "Diarrhea.",0,R.drawable.mukha,"fP4-KNIZEb0");
+                        "Diarrhea.",0,R.drawable.mukha,"ETSIv8WetjI");
         // yoga for hair
 
         insertDataYoga(db,"Sirsasana",0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,
@@ -530,7 +527,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "A heart condition\n" +
                         "High blood pressure\n" +
                         "If you are menstruating\n" +
-                        "A neck injury",0,R.drawable.khopadi,"fP4-KNIZEb0");
+                        "A neck injury",0,R.drawable.khopadi,"lm4n2OjRfGg");
 
         insertDataYoga(db,"Vajrasna",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
                 "Step 1- Kneel down, stretching your lower legs backward and keeping them together. Your big toes should cross each other.\n" +
@@ -538,7 +535,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "Turn your attention to your breathing. Be fully aware of how you breathe and carefully observe as you inhale and exhale.\n" +"You could close your eyes to concentrate on your breathing and to calm your mind.\n" +
                         "Try to stay in this position for a minimum of 5 to 10 minutes.\n","Vajrasana is a kneeling pose, and it takes its name from the Sanskrit word Vajra (वज्), which means diamond or thunderbolt.","1. It is best to avoid this asana if you have a knee problem or have undergone surgery in your knees recently.\n" +
                         "2. Pregnant women should keep their knees slightly apart when they practice this asana so that they avoid putting pressure on their abdomen.\n" +
-                        "3. If you are suffering from any spinal column ailments on the lower vertebrae, it is best to avoid this pose.",0,R.drawable.vajres  ,"fP4-KNIZEb0");
+                        "3. If you are suffering from any spinal column ailments on the lower vertebrae, it is best to avoid this pose.",0,R.drawable.vajres  ,"8O4T8nDJAIY");
 
         insertDataYoga(db,"Pawanmuktasana",0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,
                 "Step 1- Lie flat on your back on a smooth surface, ensuring that your feet are together, and your arms are placed beside your body.\n" +
@@ -547,7 +544,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "Step 4- Exhale and release the pose after you rock and roll from side to side about three to five times. Relax.","The Wind-Relieving Pose is a reclined posture that is suitable for everyone, whether they are beginners or advanced practitioners. This pose helps to release digestive gases from the intestines and stomach with great ease.",
                 "1. This asana must be avoided if you have had an abdominal surgery recently. Also, people suffering from hernia or piles must avoid this asana.\n" +
                         "2. This asana must not be practiced by pregnant women. Menstruating women can avoid this asana if they are not comfortable.\n" +
-                        "3. If you are suffering from heart problems, hyperacidity, high blood pressure, slip disc, hernia, back and neck problems, or a testicle disorder, you must avoid this asana.",0,R.drawable.pawansss,"fP4-KNIZEb0");
+                        "3. If you are suffering from heart problems, hyperacidity, high blood pressure, slip disc, hernia, back and neck problems, or a testicle disorder, you must avoid this asana.",0,R.drawable.pawansss,"EGpYPKJhVsE");
 
         insertDataYoga(db,"Sarvangasana",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
                 "Step 1- Start by lying flat on your back, keeping your legs together and your arms by your side.\n" +
@@ -559,20 +556,20 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "b. Headache\n" +
                         "c. High blood pressure\n" +
                         "d. Menstruation\n" +
-                        "e. Neck injury",0,R.drawable.sarvaniii,"fP4-KNIZEb0");
+                        "e. Neck injury",0,R.drawable.sarvaniii,"g3wvIPXZ-Qo");
         // yoga for eye
 
         insertDataYoga(db,"Palming",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"To do Palming, sit in a comfortable position. Rub your palms against each other, vigorously until you can feel the heat radiating from them. Place the palms over your closed eyes and feel the warmth spreading.",
-                " Palming is warming up your eyes for better circulation. It is a quick and easy way to relax your eyes. It improves blood circulation and keeps tiredness and puffiness at bay.","Do it gently",0,R.drawable.palm,"fP4-KNIZEb0");
+                " Palming is warming up your eyes for better circulation. It is a quick and easy way to relax your eyes. It improves blood circulation and keeps tiredness and puffiness at bay.","Do it gently",0,R.drawable.palm,"JmMzBxWnEog");
 
         insertDataYoga(db,"Trataka",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Sit down comfortably, either in Padmasana or Vajrasana. Place a candle at about two feet from where you are sitting. Light the candle and gaze at the flame without blinking. You can count numbers in your head to keep track of time and for your mind to not waver. Look as long as you can. The longer you do, the better.\n",
-                "Trataka means to gaze at an object continuously for a fixed period. Doing so improves your concentration and vision. This eye exercise lowers high myopic eye powers.","Do it gently",0,R.drawable.tratakk,"fP4-KNIZEb0");
+                "Trataka means to gaze at an object continuously for a fixed period. Doing so improves your concentration and vision. This eye exercise lowers high myopic eye powers.","Do it gently",0,R.drawable.tratakk,"vJo6xGDS0O8");
 
-        insertDataYoga(db,"Eye-Rotation- Sideways",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"To do sideway rotation, sit down in Padmasana keeping your head and back erect. Stretch your arms forward with your fists clasped and closed and thumbs facing upwards, replicating the Linga mudra. Keep your gaze fixed on the thumbs. Bring the clasped fists closer to your eyes, placing them in between your eyebrows. Move the fists to the right, with your eyeballs following the path. The head should remain straight while doing so. Bring the fists back to in between the eyebrows with your eyes following back." +
-                " Repeat the same on the left side. Repeat the entire procedure ten times, closing your eyes for 10 seconds after every repetition."," Side movement of eyeballs is good for people with myopia and hypermetropia.","Do it gently",0,R.drawable.sideways,"fP4-KNIZEb0");
+        insertDataYoga(db,"Side-ways yoga",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"To do sideway rotation, sit down in Padmasana keeping your head and back erect. Stretch your arms forward with your fists clasped and closed and thumbs facing upwards, replicating the Linga mudra. Keep your gaze fixed on the thumbs. Bring the clasped fists closer to your eyes, placing them in between your eyebrows. Move the fists to the right, with your eyeballs following the path. The head should remain straight while doing so. Bring the fists back to in between the eyebrows with your eyes following back." +
+                " Repeat the same on the left side. Repeat the entire procedure ten times, closing your eyes for 10 seconds after every repetition."," Side movement of eyeballs is good for people with myopia and hypermetropia.","Do it gently",0,R.drawable.sideways,"G9PFkbuGHmI");
 
         insertDataYoga(db,"Anuloma – Viloma Pranayama",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Sitting in Padmasana or Sukhasana, stretch out your hands, resting the palms on your knees in yoga mudra.Lift your right hand in Pranayama mudra.Using the thumb, close the right nostril.Take a deep inhalation with the left nostril.Closing the left nostril, allow exhalation through the right nostril.Now, inhale through the right nostril and allow exhalation via left nostril.This completes one round of Anuloma – Viloma Pranayama." +
-                "Repeat for 10 to 15 times to start with, increasing to 50 to 75 times, gradually.\n","This is the easiest of the pranayamas and is also known as the alternate nostril breathing exercise.","Do it gently",0,R.drawable.anuu,"fP4-KNIZEb0");
+                "Repeat for 10 to 15 times to start with, increasing to 50 to 75 times, gradually.\n","This is the easiest of the pranayamas and is also known as the alternate nostril breathing exercise.","Do it gently",0,R.drawable.anuu,"RUFzLVf5wL4");
 
         //yoga for liver
 
@@ -581,20 +578,20 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "Step 2- Your knees should be raised above the surface and pointing upwards.\n" +
                         "Step 3- Move your right hand over your left leg and hold your left foot, press your left leg gently against your abdomen, turning your head to the right side at the same time.","This is a pose that is also known as the King of the Fish Pose. It is known to be highly beneficial for the liver. It helps in putting pressure on the liver," +
                         " which in turn strengthens and stimulates the liver that is damaged by fibrosis, apoptosis, inflammation and stress.","By practicing yoga and being careful about what you eat every day, you can improve your liver’s health and keep diseases away. You also gain a healthy body that is full of strength and vitality.",
-                0,R.drawable.ardha,"fP4-KNIZEb0");
+                0,R.drawable.ardha,"fMxEHVzcAJ4");
 
         insertDataYoga(db,"Gomukhasana",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,
                 "Step 1- The first step to performing this exercise is to squat on the surface with one leg crossed over the other.\n" +
                         "Step 2- Allow your spine to stretch out.\n" +
                         "Step 3- Place your hands on your back with one over your shoulder and the other over your rib area.\n" +
-                        "Step 4- Clasp your hands at the back and hold the pose.","This pose is also known as the Cow Face Pose. It is one of the best asanas for the treatment of cirrhosis. When you suffer from liver cirrhosis, oxygenation and blood flow are prevented by scar tissues.","By practicing yoga and being careful about what you eat every day, you can improve your liver’s health and keep diseases away. You also gain a healthy body that is full of strength and vitality.",0,R.drawable.mukha,"fP4-KNIZEb0");
+                        "Step 4- Clasp your hands at the back and hold the pose.","This pose is also known as the Cow Face Pose. It is one of the best asanas for the treatment of cirrhosis. When you suffer from liver cirrhosis, oxygenation and blood flow are prevented by scar tissues.","By practicing yoga and being careful about what you eat every day, you can improve your liver’s health and keep diseases away. You also gain a healthy body that is full of strength and vitality.",0,R.drawable.mukha,"d_dh_DwDr84");
         insertDataYoga(db,"Naukasana",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,
                 "Step 1- You can perform this asana by lying on your back.\n" +
                         "Step 2- Raise both the upper and lower portions of your body, making your body rest on your buttocks.\n" +
                         "Step 3- Remain in this pose for as long as possible.\n" +
                         "Step 4- Return to the resting position and repeat it.","This is another pose that is known as the Boat Pose, and it is a simple yet effective asana for helping treat liver cancer. By performing this exercise, you help in the stimulation and strengthening of your liver, allowing it to clean all the harmful toxins in your body.",
                 "By practicing yoga and being careful about what you eat every day, you can improve your liver’s health and keep diseases away. You also gain a healthy body that is full of strength and vitality.",
-                0, R.drawable.naukasa,"fP4-KNIZEb0");
+                0, R.drawable.naukasa,"y-9U3I7fGQQ");
 
         // yoga for body detox
 
@@ -610,7 +607,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "Step 9- As you inhale, come up, bring your arms down to your sides, and straighten your feet.\n" +
                         "Step 10- Repeat the same on the other side.","The asana is pronounced as Tree-kone-nah -sah-nah\n" +
                         "Unlike most yoga postures, the Triangle Pose requires keeping the eyes open in order to maintain body balance.","1. Make sure you have done a good warm up exercise of the whole body before you do the asana.\n" +
-                        "2. While bending forward do it slowly and gently so as not to lose balance.",0,R.drawable.trikoooo,"fP4-KNIZEb0");
+                        "2. While bending forward do it slowly and gently so as not to lose balance.",0,R.drawable.trikoooo,"S6gB0QHbWFE");
 
         insertDataYoga(db,"Paschimottanasana",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
                 "Step 1- Sit up with the legs stretched out straight in front of you, keeping the spine erect and toes flexed toward you.\n" +
@@ -623,7 +620,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "Step 8- Stretch the arms out in front of you.\n" +
                         "Step 9- Breathing in, with the strength of your arms, come back up to the sitting position.\n" +
                         "Step 10- Breathe out and lower the arms.","Paschim = west; uttana = stretched out; asana = pose","Make sure you have done a good warm up exercise of the whole body before you do the asana.",
-                0,R.drawable.paschim,"fP4-KNIZEb0");
+                0,R.drawable.paschim,"KCNIcT5DDdA");
 
         insertDataYoga(db,"Setu Bandhasana",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
                 "Step 1- To begin, lie on your back.\n" +
@@ -634,7 +631,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "Step 6- Keep breathing easily.\n" +
                         "Step 7- Hold the posture for a minute or two and exhale as you gently release the pose.","Setu – Bridge; Bandha – Bind, Lock; Asana – Pose, Posture\n" +
                         "This asana is pronounced as SAY-tuh-bun-DHAHS-ana."+ "The pose resembles a bridge, hence the name.\n","Avoid doing this pose if you are suffering from neck and back injuries.",
-                0,R.drawable.setu,"fP4-KNIZEb0");
+                0,R.drawable.setu,"JY9TLhKIQdE");
 
         // yoga for energy
         insertDataYoga(db,"Badhakonasana",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
@@ -654,7 +651,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "\n" +
                         "The posture is named Badhakonasana because of the way it is carried out – both the feet tucked close to the groin, clasped tightly with the hands as though tied or bound together in a particular angle.",
                 "f you are suffering from groin or knee injury, make sure you keep a blanket under the outer thighs for support. Do not perform this pose without blanket support. Also, sciatica patients should either completely avoid the pose or sit on a cushion to raise the hips.",
-                0,R.drawable.baddha,"fP4-KNIZEb0");
+                0,R.drawable.baddha,"kL-81iBucXo");
 
         insertDataYoga(db,"Poorvottanasana",0,0,0,0,0,
                 0,0,0,0,0,0,0,0,1,0,
@@ -667,7 +664,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "Step 7- As you exhale, come back to a sitting position and relax. .\n" +
                         "Step 8- Repeat the posture with your fingers pointing in the opposite direction.","The literal meaning of this asana (posture) is to stretch towards the east. However, this has nothing to do with stretching in the east direction. Poorvottanasana specifically refers to the flow of pranaic subtle energies in the \"eastern\" frontal side.",
                 "Since the whole weight of the body is to be supported mainly by the hands and wrists, people with wrist injuries should avoid this asana. Also, those suffering from any neck injury should either completely avoid doing this posture or use the support of a chair while practicing the pose.",
-                0,R.drawable.poorviiiii,"fP4-KNIZEb0");
+                0,R.drawable.poorviiiii,"20PawVmmGJs");
 
         insertDataYoga(db,"Shishuasana",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
                 "Step 1- Sit on your heels. Keeping your hips on the heels, bend forward, and lower your forehead to the floor.\n" +
@@ -678,7 +675,7 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "Relieves constipation.\n" +
                         "Calms down the nervous system.","In case of serious back or knee injuries avoid this pose.\n" +
                         "Pregnant women should avoid doing this pose.\n" +
-                        "Avoid this pose if you suffering from are or had recently suffered from diarrhea.",0,R.drawable.shishu,"fP4-KNIZEb0");
+                        "Avoid this pose if you suffering from are or had recently suffered from diarrhea.",0,R.drawable.shishu,"PKcpRMVXkrk");
 
         insertDataYoga(db,"Janu Shirasasan",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
                 "Step 1- Sit up with the legs stretched out straight in front of you, keeping the spine erect.\n" +
@@ -690,17 +687,134 @@ R.drawable.boundangle,"fP4-KNIZEb0");
                         "Step 7- Breathing in, come up and breathing out, bring the arms down to the sides.\n" +
                         "Step 8- Repeat on the other side.","Stretches lower back\n" +
                         "Massages the abdominal organs and tones the shoulders",
-                "Those suffering from any neck injury should completely avoid doing this posture",0,R.drawable.januu,"fP4-KNIZEb0");
+                "Those suffering from any neck injury should completely avoid doing this posture",0,R.drawable.januu,"dIvn6YyIaWc");
 
         //yoga for ortho
 
         insertDataYoga(db,"Locust Pose (Salabhasana)",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,
                 "To perform this pose, begin by raising your legs and the upper torso. Hold this pose for 10 seconds and repeat it thrice. The locust pose also helps relieve you of back pain.","The grasshopper or the locust pose is a great exercise for the back and the legs. It also helps strengthen your bones.",
-                " Ensure you are properly hydrated.Use your yoga mat.",0,R.drawable.locustttt,"fP4-KNIZEb0");
+                " Ensure you are properly hydrated.Use your yoga mat.",0,R.drawable.locustttt,"qqdBKqe_WfI");
 
         insertDataYoga(db,"Ardha Chandrasana",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,
                 " Begin standing in Tadasana (Mountain Pose) in the center of your mat. Step your feet hip width apart, keeping them parallel to the outer edges of your mat. Inhale and extend your arms out parallel to the floor.",
                 "This pose helps tone the legs, abdomen, spine and glutes. It also helps cure osteoporotic pain and helps strengthen the bones. You can use a block for any variations to the normal pose.","Ensure you are properly hydrated.Use your yoga mat.",0,R.drawable.ardha,"fP4-KNIZEb0");
+
+
+       // meditation hindu
+
+        insertDataMedi(db,"Mantra Meditation (OM Meditation)",0,1,0,0,0,"A mantra is a syllable or word, usually without any particular meaning, that is repeated for the purpose of focusing your mind. It is not an affirmation used to convince yourself of something.",
+                "1. As most type of meditations, it is usually practiced sitting with spine erect, and eyes closed. The practitioner then repeats the mantra in his mind, silently, over and over again during the whole session.\n" +
+                        "\n" +
+                        "2. Sometimes this practice is coupled with being aware of the breathing or coordinating with it. In other exercises, the mantra is actually whispered very lightly and softly, as an aid to concentration.\n" +
+                        "3. Here are some of the most well-known mantras from the Hindu & Buddhist traditions:\n" +
+                        "om\n" +
+                        "so-ham\n" +
+                        "om namah shivaya\n" +
+                        "om mani padme hum\n" +
+                        "rama\n" +
+                        "yam\n" +
+                        "ham\n" +
+                        "4. You may practice for a certain period of time, or for a set number of “repetitions” – traditionally 108 or 1008. In the latter case, beads are typically used for keeping count.\n" +
+                        "\n" +
+                        "5. As the practice deepens, you may find that the mantra continues “by itself” like the humming of the mind. Or the mantra may even disappear, and you are left in a state of deep inner peace.",
+                "If you are completely new to meditation,OM meditation is probably good way for you to start",
+                "Anyone", 0,R.drawable.mantra,"JehQATmna7k");
+
+
+
+        insertDataMedi(db,"Yoga Meditations",0,1,0,0,0,"There is not one type of meditation which is “Yogic Meditation”, so here it is meant the several meditation types taught in the yoga tradition. Yoga means “union”. Tradition goes as far as 1700 B.C, and has as its highest goal spiritual purification and Self-Knowledge.",
+                "Here are some types of meditation practiced in Yoga. The most common and universal Yoga meditation one is the “third eye meditation”. Other popular ones involve concentrating on a chakra, repeating a mantra, visualization of light." +
+                        "1.  Eye Meditation — focusing the attention on the “spot between the eyebrows” (called by some “the third eye” or “ajna chakra”). The attention is constantly redirected to this point, as a means to silence the mind. By time the “silent gaps” between thoughts get wider and deeper. Sometimes this is accompanied by physically “looking”, with eyes closed, towards that spot.\n" +
+                        "2. Chakra Meditation — the practitioner focuses on one of the seven chakras of the body (“centers of energy”), typically doing some visualizations and chanting a specific mantra for each chakra (lam, vam, ram, yam, ham, om). Most commonly it is done on the heart chackra, third eye, and crown chackra." +
+                        "3. Kundalini Meditation — this is a very complex system of practice. The goal is the awakening of the “kundalini energy” which lies dormant on the base of the spine, the development of several psychic centers in the body, and, finally, enlightenment. There are several dangers associated with this practice, and it should not be attempted without the guidance of a qualified yogi.\n" +
+                        "4. Kriya Yoga — is a set of energization, breathing, and meditation exercises taught by Paramahamsa Yogananda. This is more suited for those who have a devotional temperament, and are seeking the spiritual aspects of meditation. To learn it, you can apply to receive the Self-Realization lessons, free of charge. ",
+                "If you are completely new to meditation,yoga meditation is probably good way for you to start",
+                "Anyone", 0,R.drawable.yogamedi,"JehQATmna7k");
+
+
+        // chinese meditation
+
+
+        insertDataMedi(db,"Taoist Meditations",0,0,1,0,0,"Daoism is a Chinese philosophy and religion, dating back to Lao Tzu (or Laozi). It emphasizes living in harmony with Nature.The chief characteristic of this type of meditation is the generation, transformation, and circulation of inner energy. ",
+                " here are several different types of Taoist meditation, and they are sometimes classified in three: “insight”, “concentrative”, and “visualization”. Here is a brief overview:" +
+                        "1. Emptiness meditation (Zuowang)— to sit quietly and empty oneself of all mental images (thoughts, feelings, and so on), to “forget about everything”, in order to experience inner quiet and emptiness. In this state, vital force and “spirit” is collected and replenished. This is similar to the Confucius discipline of “heart-mind fasting”, and it is regarded as “the natural way”. One simply allows all thoughts and sensations arise and fall by themselves, without engaging with or “following” any of them. If this is found to be too hard and “uninteresting”, the student is instructed with other types of meditation, such as visualization and Qigong\n" +
+                        "2. Visualization (Cunxiang) — an esoteric practice of visualizing different aspects of the cosmos in relation to one’s own body and self.\n" +
+                        "3. Breathing meditation (Zhuanqi) — to focus on the breath, or “unite mind and qi”. The instruction is “focus your vital breath until it is supremely soft”. Sometimes this is done by simply quietly observing the breath (similar to Mindfulness Meditation in Buddhism); in other traditions it is by following certain patterns of exhalation and inhalation, so that one becomes directly aware of the “dynamisms of Heaven and Earth” through ascending and descending breath (a type of Qigong, similar to Pranayama in Yoga).\n" +
+                        "4. Inner Vision (Neiguan) — visualizing inside one’s body and mind, including the organs, “inner deities”, qi (vital force) movements, and thought processes. It’s a process of acquainting oneself with the wisdom of nature in your body. There are particular instructions for following this practice, and a good book or a teacher is required.",
+                "If you are completely new to meditation,this meditation is probably good way for you to start",
+                "Anyone", 0,R.drawable.taoist,"JehQATmna7k");
+
+
+
+        insertDataMedi(db,"Qigong (Chi kung)",0,0,1,0,0,"Qigong (also spelled chi kung, or chi gung) is a Chinese word that means “life energy cultivation”, and is a body-mind exercise for health, meditation, and martial arts training. It typically involves slow body movement, inner focus, and regulated breathing. Traditionally it was practiced and taught in secrecy in the Chinese Buddhist, Taoist and Confucianist traditions. ",
+                "An introductory overview of the practice of seated Qigong meditation:\n" +
+                        "\n" +
+                        "1. Sit in a comfortable position. Make sure your body is balanced and centered.\n" +
+                        "2. Relax your whole body – muscles, nerves, and internal organs\n" +
+                        "3. Regulate your breathing, making it deep, long, and soft.\n" +
+                        "4. Calm your mind\n" +
+                        "5. Place all your attention in the “lower dantien”, which is the center of gravity of the body, two inches below the navel. This will help accumulate and root the qi (vital energy). Where your mind and intention is, there will be your qi. So, by focusing on the dantien, you are gathering energy in this natural reservoir.\n" +
+                        "6. Feel the qi circulating freely through your body.",
+                "If you are completely new to meditation,this is probably good way for you to start",
+                "Anyone", 0,R.drawable.qigong,"JehQATmna7k");
+
+        // christian meditation
+
+        insertDataMedi(db,"Contemplative prayer",0,0,0,1,0,"In Eastern traditions (Hinduism, Buddhism, Jainism, Daoism) meditation is usually practiced with the purpose of transcending the mind and attaining enlightenment. On the other hand, in the Christian tradition the goal of contemplative practices is, one may say, moral purification and deeper understanding of the Bible; or a closer intimacy with God/Christ, " +
+                        "for the more mystic stream of the tradition.Here are some forms of Christian contemplative practice:\n" +
+                        "1. contemplative prayer — which usually involves the silent repetition of sacred words or sentences, with focus and devotion.\n" +
+                        "2. contemplative reading — or simply “contemplation”, which involves thinking deeply about the teachings and events in the Bible.\n" +
+                        "3. sitting with God” — a silent meditation, usually preceded by contemplation or reading, in which we focus all our mind, heart and soul on the presence of God ",
+                "1. Choose a sacred word from Christian tradition, such as Lord, Father, Jesus, Mary, Abba, Mercy, Love. The Aramaic word maranatha (“Come, Lord!”) is often used.\n" +
+                        "2. For 10 to 30 minutes, repeat the sacred word. It shouldn’t be repeated only mechanically, but with focus and emotional content. Each repetition should be like a prayer.\n" +
+                        "3. When thoughts or emotions arise, bring the mind back to the sacred word. ",
+                "If you are completely new to meditation,this is probably good way for you to start",
+                "Anyone", 0,R.drawable.contemplate,"JehQATmna7k");
+
+        insertDataMedi(db,"Hesychasm (Eastern Orthodox)",0,0,0,1,0,"Hesychasm, or the Jesus Prayer. It dates to the days of the Desert Fathers, who lived in extreme poverty and deprivation at the dawn of Christianity. The word comes from the Greek hesychia, meaning “stillness” or “silence”. This form of practice involves the repetition of short sacred words or sentences.\n",
+                        "1. Choose one of the suggested sentences. The favored ones are: “O God, make speed to save me. O Lord, make haste to help me.” and “Lord Jesus Christ, Son of God, have mercy on me, a sinner”.\n" +
+                                "2. For 10 to 30 minutes, repeat the sacred word. It should be repeated not only mechanically, but with focus and emotional content. Each repetition should be like a prayer.\n" +
+                                "3. Synchronize the repetition with your breathing. For instance, when breathing in one says “Lord Jesus Christ, Son of God…” and when breathing out one completes the sentence, “have mercy on me, a sinner”.\n" +
+                                "4. While repeating those prayers you can also feel that you are breathing in and out of the heart. It helps you further connect to it.\n" +
+                                "5. When thoughts or emotions arise, bring the mind back to the sacred word.\n" +
+                                "6. Pray without ceasing” – try to maintain the repetition of the prayer even while doing other activities during your day.",
+                "If you are completely new to meditation,this is probably good way for you to start",
+                "Anyone", 0,R.drawable.hey,"JehQATmna7k");
+
+
+        // guided meditation
+
+        insertDataMedi(db,"Candle meditation",0,0,0,0,1,"As you might have guessed, a candle meditation is practiced by gazing at a candle flame." +
+                        "For some people this type of meditation is quite easy, as they find it easier to let go of thoughts when they are concentrating on a physical “thing” rather than on a mantra. \n",
+                        "1. Light a candle and position it at eye level, or slightly below. It’s OK to look down at the candle slightly, but make sure that your head is not tilted too far forward and that your body is not slumping. \n" +
+                                "\n" +
+                                "2. It’s important that you are able to maintain a comfortable upright posture that feels natural to you. Take a seat in your favourite chair, or sit cross legged on the floor, and make sure that your candle is at least 50cm away from you, otherwise it may appear too bright. \n" +
+                                "3. Now simply stare at the candle and allow the image of the flame to occupy your mind. \n" +
+                                "4. At first, your mind will probably wander about and your eyes will resist your efforts to keep them still. This is normal and it will gradually ease as the meditation progresses, so don’t be too concerned if this happens to you. \n" +
+                                "5. You may also find that your eyes water a little. Again, this is normal and it usually dissipates quite quickly. If distractions like these arise, simply return your attention to the candle flame and let them go. \n" +
+                                "6. A great way to deepen a candle meditation is to imagine that you are breathing the light of the candle in and out of yourself.",
+                "Before you light a candle for your meditation, take a minute to prepare the space in which you will meditate. Turn down the lights or draw your window shades closed. You'll find this meditation much easier to do in a room that's not too bright ",
+                "Anyone", 0,R.drawable.candle,"JehQATmna7k");
+
+
+        insertDataMedi(db,"Chakra Meditation",0,0,0,0,1,"Chakra meditation helps to strengthen weak chakras and will benefit your health, wisdom and happiness.\n" +
+                        "If you need to recharge your body, mind and soul then using chakra meditation is an excellent way to revitalize you from the inside out.\n" ,
+                        "Start your meditation by sitting down, cross legged in a quiet, dimly lit room\n" +
+                                "Make sure that your spine is straight but not stiff\n" +
+                                "Close your eyes then take a deep breath and start to relax\n" +
+                                "Now go through each chakra in turn, starting with the root chakra:\n" +
+                                "Imagine that you are drawing energy up from the earth, through the root chakra and that this is building up in the base of your spine.\n" +
+                                "Then the navel chakra: feel the concentration of energy building up around your navel and visualize a flow of warm lava out of this chakra center.\n" +
+                                "Moving on to the solar plexus chakra, let your stomach muscles relax deeply and sense the movement of the energy through your diaphragm.\n" +
+                                "Next is the heart chakra. Imagine your heart getting stronger with every breath. See and feel a bright light radiating out from this area.\n" +
+                                "Progressing on to the throat chakra, breath in with force. Then gradually relax your tongue, shoulders and neck.\n" +
+                                "For the brow chakra, keeping your eyes closed, focus on your \"third eye\" (the point between your eyebrows). Endeavor to see this area even though your eyes are close and observe what you are seeing.\n" +
+                                "Finally, it's the crown chakra. Visualize a beautiful lotus with a thousand petals blossoming from the tip of your head. As you visualize, see the color change from a deep violet through to a brilliant white light.\n" +
+                                "Done correctly, the chakra meditation can bring you into union with your God. It is a very powerful form of meditation and helps you to stabilize your body, bringing an inner peace and harmony to you.\n",
+                "The first few times you practice a chakra meditation, make sure that you have an expert to guide you. Ideally face to face, but at least with a guided CD. You need to make sure that your chakras are left more in balance at the end of the meditation than they were when you started.",
+                "Anyone", 0,R.drawable.images,"JehQATmna7k");
+
+
 
         // call functions here to add data //
 
